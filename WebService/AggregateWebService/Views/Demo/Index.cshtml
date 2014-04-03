@@ -1,0 +1,65 @@
+﻿@Styles.Render("~/Content/Demo.css");
+
+<header>
+    <div id="UrlHelpers" class="hidden">
+        <div id ="UrlAction" class="hidden" data-urlaction="@Url.Action("PLACEHOLDER", "Demo", new{})" ></div>
+        <div id="UrlContent" class="hidden" data-urlcontent="@Url.Content("~/")"></div>
+    </div>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <h1>Demonstration Page</h1>
+        </div>
+    </div>
+</header>
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Demonstrate the Windfarm Aggregation API: </h1>
+                <h2>calling examples URL's, using JavaScript and Ajax.</h2>
+            </hgroup>
+            <p>
+                Each of the menu items below demonstrate the resources available from the service.
+                Clicking a URL shown on any of the pages will perform an Ajax call to the API, showing
+                the results below, which consist of the Hypermedia links and the JSON returned from the call.  
+                Each link return can also be clicked to progress through the api. The 'Freehand' menu displays
+                a page where any url can be constructed with any http verb to pass into the API.
+            </p>
+            <ul id="jsMenu">
+                <li><a href="#" id="menudatasource" title="Demonstrate the DataSource URL's" data-page="datasources" data-method="get">DataSources</a></li>
+                <li><a href="#" id="menuimport" title="Demonstrat the Import URL's" data-page="imports" data-method="get">Imports</a></li>
+                <li><a href="#" id="menudatatypes" title="Demonstrate the DataType URL's" data-page="datatypes" data-method="get">DataTypes</a></li>
+                <li><a href="#" id="menuwindfarms" title="Demonstract the Windfarm URL's" data-page="windfarms" data-method="get">WindFarms</a></li>
+                <li><a href="#" id="menuFreehand" title="Enter some URL's freehand" data-page="errors" data-method="get">Freehand</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        <div id="partPage">
+            
+        </div>
+        
+        <div id ="returnvalues" class="returnvalues hidden">
+            <span class="left-column">Hypermedia links</span>
+            <span class="right-column">JSON returned from api call</span>
+            <div id="links" class="links left-column">
+            </div>
+            <div id="results" class="results right-column">
+            </div>
+        </div>
+    </section>
+</div>
+
+@*This div toggle between visible and hidden.  It displays an animated image while loading data*@
+<div id="loadingdata">
+    <div>
+        <img src="@Url.Content("~/Content/Images/ajax-loader.gif")" alt="Loading" />
+        <br />
+        <span id="loading-message" >Please wait: loading data.</span>
+    </div>
+</div>
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/demo");
+}

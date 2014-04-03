@@ -1,0 +1,136 @@
+﻿
+/*
+*   Styles for the Demo Page
+*   ------------------------
+*/
+.left-column {
+    width: 350px; 
+    float: left;
+}
+
+.right-column {
+    width: 500px; 
+    float: right;
+}
+
+.returnvalues {
+    padding: 5px;
+    border-top: dotted medium;
+    display: none;
+}
+
+.returnvalues:after {
+    clear: both;
+}
+
+.links {
+    /*float: left;*/
+    margin: 5px 15px 5px 5px;
+    overflow: hidden;
+    padding: 5px;
+    /*width: 350px;*/
+}
+
+.results {
+    border: solid thin;
+    /*float: right;*/
+    margin: 5px;
+    overflow: scroll;
+    padding: 5px;
+    /*width: 500px;   */
+}
+
+.linkname {
+    margin: 1px 1px 1px 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+/*  Input or FreeHand page*/
+.label-resource {
+    margin-left: 40px; 
+    margin-right: 45px;
+}
+
+.label-id {
+    margin-left: 10px; 
+    margin-right: 34px;
+}
+
+.label-http {
+    margin-left: 10px;
+}
+
+.input-resource {
+    width: 100px;
+}
+
+.input-id {
+    width: 50px;
+}
+
+.input-http {
+    width: 75px;
+}
+
+.urldisplay {
+    margin-left: 25px;
+}
+
+
+
+/*
+*   This is the background for the "loading" message
+*   It occupies the entire screen to stop people clicking
+*   until the full windfarm information is loaded.
+*   It will only be displayed when the task is likely
+*   to take a long time, > 1sec.
+*   Tha background image is set to black, with transparency
+*   switched on and opacity at ~80%.  
+*   It needs to be quite dark for any effect to be visible
+*   in IE, it shows with much less opacity in Firefox.
+*
+*   This sets the background for the entire screen.
+*/
+#loadingdata
+{
+    /*visibility: hidden;     /* toggle this to show or hide.*/
+    display: none;          /* using the ajaxStart events, use display: instead of visibility*/
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 1000;          /* ensures display is "on top".*/
+    background-image: url('Images/background.png');
+    /*
+    *   URL's referenced within a CSS file are 'relative' to the 
+    *       location of the CSS file, NOT the Virtual directory
+    *       of the application.
+    */
+/*    background-image: url('../../Content/Images/background.png');*/
+}
+
+/*
+*   This is the actual box that displays the .gif file.
+*   It should be contained inside the background div.
+*   It should act like a "modal dialog box".
+*/
+#loadingdata div {
+    width:150px;
+    margin: 100px auto;
+    background-color:White;
+    border:1px solid black;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+    padding:15px;
+    text-align:center;
+}
+

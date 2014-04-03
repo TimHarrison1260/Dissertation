@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Windfarms";
+}
+
+<h2>Windfarms</h2>
+<p>
+    The link below is the top URL available to search for Windfarms aggregated in the Windfarm 
+    Service.  (Search criteria can be entered for either URL).
+</p>
+<div id="apilinks">
+    <ul>
+        <li>
+            <a rel="windfarm" href="#" title="windfarm" data-input="searchcriteria">/api/windfarm</a>
+            <a rel="windfarm search" href="#" title="windfarm search" data-input="searchcriteria">/api/search</a>
+        </li>
+    </ul>
+    
+    <div class="inline">
+        <span  class="inline">Supply search criteria</span>
+        <input id="searchcriteria" class="inline" name="searchcriteria" type="text"/>
+    </div>
+
+</div>

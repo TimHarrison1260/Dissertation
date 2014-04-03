@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Invalid URL's";
+}
+
+<h2>Enter URL manually</h2>
+<p>
+    Construct a URL by specifying all or some of the fields and submit it to the API, specify any 
+    HTTP method and click the 'Submit' button. It is designed to test URL using method other than GET and POST.
+</p>
+<div id="input">
+        <p>Enter some details for resource, parameters and verbs and click 'submit' to test the URL</p>
+    <div>
+        <span class="label-resource">{resource}</span>
+        <span>/</span>
+        <span class="label-id">{id}</span>
+        <span>:</span>
+        <span class="label-http">Http</span>
+    </div>
+    <div class="inline">
+        @*<p>Enter some details for resource, parameters and verbs and click 'submit' to test the URL</p>*@
+        <span  class="inline">/api/</span>
+        <input id="inputresource" class="inline input-resource" name="inputresource" type="text" />
+        <span  style="display: inline; ">/</span>
+        <input id="inputid" class="inline input-id" name="inputid" type="text"/>
+        <span  class="inline">:</span>
+        <select id="selectVerb" class="input-http" name="httpverbs">
+            <option value="get" selected="selected">Get</option>
+            <option value="put">Put</option>
+            <option value="post">Post</option>
+            <option value="delete">Delete</option>
+            <option value="head">Head</option>
+            <option value="options">Options</option>
+            <option value="patch">Patch</option>
+        </select>        
+        <input id="submiturl" class="inline" name="submiturl" type="button" value="submit"/>
+        <div id="constructedurl" class="inline urldisplay">
+        </div>
+    </div>
+</div>
+
+
+
+
+

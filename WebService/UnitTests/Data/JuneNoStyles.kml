@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Folder>
+    <name>Features (STATUS)</name>
+    <Folder>
+      <name>Application</name>
+      <Placemark>
+        <name>10 x 50kW Windbank turbines at Tambowie Farm, Milngavie</name>
+        <Snippet maxLines="0">
+        </Snippet>
+        <styleUrl>#Application</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -4.36424819758413,55.9478861066071,0 -4.36571058448834,55.94893346356282,0 -4.36855929496109,55.9476980433338,0 -4.36737375343725,55.94686475898671,0 -4.36424819758413,55.9478861066071,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Folder>
+	<Folder>
+		<name>Feature Labels (NAME)</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>10 x 50kW Windbank turbines at Tambowie Farm, Milngavie</name>
+			<visibility>0</visibility>
+			<styleUrl>#Application_LABELS</styleUrl>
+			<Point>
+				<coordinates>-4.36641848301967,55.9478668152591,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

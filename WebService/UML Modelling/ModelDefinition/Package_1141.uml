@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="384f6f82-b7bf-4317-85b3-2c35d2b4e311"
+  name="AggregateWebService"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="640d48f8-4d40-42f2-87d0-928cf0732349"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAggregateWebService"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e7f2896e-5ab8-426e-8094-0cf238475c24"
+        LastKnownName="Controllers"
+        LastKnownLocation="Package1_1141.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f537630a-bf9a-4c3a-b480-4579be513a8f"
+        LastKnownName="Interfaces"
+        LastKnownLocation="Package2_1141.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1e973148-8a0e-4afa-8a99-c89a8d4a7920"
+        LastKnownName="Models"
+        LastKnownLocation="Package3_1141.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ba46ca25-d0cc-404b-9bb9-7abdfebede56"
+        LastKnownName="Mappers"
+        LastKnownLocation="Package_1144.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d38dfa96-0182-4692-a43f-b25356223927"
+        LastKnownName="Generators"
+        LastKnownLocation="Package_1706.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="04c17993-a619-4fa9-810c-998d98f7cc83"
+        LastKnownName="Helpers"
+        LastKnownLocation="Package_2017.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

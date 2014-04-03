@@ -1,0 +1,48 @@
+@using System.Web.Http
+@using System.Web.Http.Description
+@using System.Collections.ObjectModel
+@using AggregateWebService.Areas.HelpPage.Models
+@model Collection<ApiDescription>
+
+@{
+    ViewBag.Title = "ASP.NET Web API Help Page";
+
+    // Group APIs by controller
+    ILookup<string, ApiDescription> apiGroups = Model.ToLookup(api => api.ActionDescriptor.ControllerDescriptor.ControllerName);
+}
+
+<header>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <h1>@ViewBag.Title</h1>
+        </div>
+    </div>
+</header>
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <h2>Introduction</h2>
+            <p>
+                This is the Wind farm data Aggregation Web Service.  It allows different data source to be 'imported' and the
+                data aggregated, based upon the wind farm name.  Each data source holds different but related information which
+                is exposed through the REST compliant API, documented below.
+            </p>
+            <p>
+                The key resources are: <br/>
+                <strong>DataSource</strong> which are the data sources that are defined to the aggregation service <br/>
+                <strong>DataTypes</strong> which are the various types of data, aggregated from the various data sources <br/>
+                <strong>Windfarm</strong> which are the wind farms containing the aggregated data.
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        @foreach (var group in apiGroups)
+        {
+            @Html.DisplayFor(m => group, "ApiGroup")
+        }
+    </section>
+</div>
+
+@section Scripts {
+    <link type="text/css" href="~/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+}

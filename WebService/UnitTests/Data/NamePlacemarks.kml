@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+		<Placemark>
+			<name>10 x 50kW Windbank turbines at Tambowie Farm, Milngavie</name>
+			<visibility>0</visibility>
+			<styleUrl>#Application_LABELS</styleUrl>
+			<Point>
+				<coordinates>-4.36641848301967,55.9478668152591,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A&apos;Chruach</name>
+			<visibility>0</visibility>
+			<styleUrl>#Approved_LABELS</styleUrl>
+			<Point>
+				<coordinates>-5.33315789557615,56.13000273320591,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Allt Dearg 2</name>
+			<visibility>0</visibility>
+			<styleUrl>#Approved_LABELS</styleUrl>
+			<Point>
+				<coordinates>-5.48209775774461,55.9390120961335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Achany</name>
+			<visibility>0</visibility>
+			<styleUrl>#Installed_LABELS</styleUrl>
+			<Point>
+				<coordinates>-4.52086088978016,58.00447625445981,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Whitelee Wind Farm</name>
+			<visibility>0</visibility>
+			<styleUrl>#Installed_LABELS</styleUrl>
+			<Point>
+				<coordinates>-4.27208808299531,55.6857236187688,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Achlachan</name>
+			<visibility>0</visibility>
+			<styleUrl>#Scoping_LABELS</styleUrl>
+			<Point>
+				<coordinates>-3.452606434450431,58.44944072613522,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Achnaba</name>
+			<visibility>0</visibility>
+			<styleUrl>#Scoping_LABELS</styleUrl>
+			<Point>
+				<coordinates>-5.32986087046282,56.48644216054141,0</coordinates>
+			</Point>
+		</Placemark>
+</Document>
+</kml>

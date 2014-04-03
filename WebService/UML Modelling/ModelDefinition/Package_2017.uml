@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="04c17993-a619-4fa9-810c-998d98f7cc83"
+  name="Helpers"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="b569ff18-133d-467e-a3bc-f42f68e5d55e"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAggregateWebService.Helpers"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="766a8e52-2486-41b0-a9db-5a04ced46fca"
+        name="HttpRequestHelper"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7928003e-26d8-486d-8ce2-b8da3dc9f5fe"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Helpers Type%3DHttpRequestHelper"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="25a3a161-7a77-419e-8ec2-588150a2bee2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5178d7b6-2eb2-4943-8ad7-118be273ac26">
+                <propertyInstance
+                  Id="aa1d8b01-c511-4d40-bd7c-e897c1e89d9f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c320e2fc-1673-4e17-b1fb-fdae0a06eaf2">
+                <propertyInstance
+                  Id="c7736178-5fb8-436a-949a-d6dec1cede1f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c042c96f-602c-4318-b929-1e0722427e11">
+                <propertyInstance
+                  Id="9faaf005-a956-44d3-b1e1-44409b49e484"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0c65a28c-f4ce-44bc-9ad3-e9f7df77ca43">
+                <propertyInstance
+                  Id="f697d594-bf87-44e3-bfa8-5cc62c41186b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a00f7c4-c0b5-4f3a-a396-480cd7f30b9c">
+                <propertyInstance
+                  Id="78404d94-bb73-491e-b0cb-bfd27954d172"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="7753f506-4d8c-4c9a-a152-1f185dff741b">
+            <interfaceMoniker
+              Id="28e38ea3-4232-415e-b1e5-db7c5577f073"
+              LastKnownName="IHttpRequestHelper"
+              LastKnownLocation="Package2_1141.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="faa8c146-8e4e-4d7e-bf95-e0d02daed4a4"
+            name="_provider"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d85011e8-561a-4a4f-a7af-5b23c7ecb3dd"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Helpers Type%3DHttpRequestHelper Member%3D_provider"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="13053cb7-8d1d-4420-a8e8-31da83558ae5"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cb908c5-ce7a-42cf-b113-229fcc7ff1e2">
+                    <propertyInstance
+                      Id="f2843093-685e-4761-a117-45e672b2921d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c83d701-ac21-44be-ba9b-195ca4bdf088">
+                    <propertyInstance
+                      Id="85d9ebb5-f120-4c15-a8e5-413ecca55ceb"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8c8985a-b120-4bec-942e-05f7b111253e">
+                    <propertyInstance
+                      Id="4ad9828e-12ff-401c-bb30-a085162192b4"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a570e5cc-e5e8-4707-93d4-1a15d69aa98e">
+                    <propertyInstance
+                      Id="b84b9b39-4c8a-44f4-8422-d54addb27f4a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c442a6c9-df91-4747-ba2b-f2444ba0025b">
+                    <propertyInstance
+                      Id="896275ef-d31c-4deb-9f0f-9c0018bbf3c7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="07ddd090-6309-4c0a-9ec8-fc3dc3d2a385"
+                LastKnownName="MultipartFormDataStreamProvider"
+                LastKnownLocation="Package2_2014.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9636c86c-408e-47a1-b582-a49ac3a165ba"
+            name="_dataDir"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bda9cba0-5689-4941-8a9a-55bb7655f6df"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Helpers Type%3DHttpRequestHelper Member%3D_dataDir"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cb90d348-ae71-4a8a-9722-a1a920780ed2"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bfcc962-9b1f-4786-abad-34657532cb2c">
+                    <propertyInstance
+                      Id="a7f6020e-78aa-46ef-900b-e2a5f9c94c53"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f07d1dd-6b54-4490-af02-ca8b02b30fae">
+                    <propertyInstance
+                      Id="31ac6eb2-de19-4d41-8803-5e1ee150c9b0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee1f162a-df29-4e1b-9e27-a8720148f9ef">
+                    <propertyInstance
+                      Id="e6f14fde-8650-4c0f-b53a-024c25940bb4"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fb4653c-d808-40cf-aba2-03c636f53f0e">
+                    <propertyInstance
+                      Id="5762179c-f40f-47ed-a464-493bd4e63e14"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1521d37-1906-4304-aec7-9e694ef969f0">
+                    <propertyInstance
+                      Id="b26cb05f-6b3a-45ac-b186-5f16a224276a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="UML Modelling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="66be56ce-706e-45a3-bb39-f898ce3d4fd8"
+            name="_tempFileName"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9ae73976-48ae-4857-9f3c-8da7efda1465"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Helpers Type%3DHttpRequestHelper Member%3D_tempFileName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2968085e-9d1a-476c-a358-2f5caab5b297"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="115024af-ec65-401e-babd-a6d324c8dc98">
+                    <propertyInstance
+                      Id="c022cbf6-05be-4c5e-94f7-8f6b90a76fb5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3342c908-75ed-4078-a5ca-be6cab99ab26">
+                    <propertyInstance
+                      Id="1cb6b9a1-c6d4-4855-8260-f3bc06a2fb4f"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9991d7f-157c-4bf1-a582-194d850ee5b7">
+                    <propertyInstance
+                      Id="b52aa731-a36e-4589-b412-d946da21490b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81a609eb-b120-4682-bf97-62922496aa72">
+                    <propertyInstance
+                      Id="12247e7d-712d-4cf6-a067-c39cbe11c96f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7fe16b97-7079-424b-972f-839e212a4458">
+                    <propertyInstance
+                      Id="bb98de61-6238-452e-9ddd-4de1a369c2ef"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="UML Modelling.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b2dbfb38-6c68-41da-8699-bdea9fef51f4"
+            name="HttpRequestHelper"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cb4dc1a2-1fe3-473e-9002-2b2204cd113f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Helpers Type%3DHttpRequestHelper Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7f1afc55-4a03-4195-88b1-802ba99c0aef"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="607481cf-0ce8-482b-a6aa-79a011f1f464">
+                    <propertyInstance
+                      Id="42576f29-6b31-4866-9977-b63be0890b99"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a0695ad-fae1-4ce8-b703-dca25fef2de7">
+                    <propertyInstance
+                      Id="bdf3ed03-a627-4c8f-8ae7-51a3e2888b89"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74cbf361-9691-4404-a5aa-5d8fc738a231">
+                    <propertyInstance
+                      Id="2051620d-4581-4f5e-8aa8-9a9e61b6a152"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36976651-cdc4-4dec-82f0-b2c2fd0d18e8">
+                    <propertyInstance
+                      Id="c407282a-4a89-47ba-8dc2-69ffde649b5c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="104f7651-984d-42f2-9855-1d54e6186f3a">
+                    <propertyInstance
+                      Id="a8a4ed8c-e9cc-45aa-b02e-a2a687df7959"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae5ec1c9-e2ed-46a2-9778-c4b4716bbe64">
+                    <propertyInstance
+                      Id="e2d5de2f-77af-4c54-98e2-ca976a6bcac7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="e11016b8-bddf-4a01-a802-def3370fe209"
+            name="GetMimeFileContents"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fc4616b2-15d0-4c58-8668-013249b698b1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Helpers Type%3DHttpRequestHelper Member%3D(Name%3DGetMimeFileContents OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Net.Http.dll&quot; Namespace%3DSystem.Net.Http Type%3DHttpRequestMessage)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9e133e62-2025-4771-b147-4862e425573f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afb3b2cd-f831-4ecd-8c84-cd3f59b8e7c9">
+                    <propertyInstance
+                      Id="c3f6784c-131d-4fd2-8d62-bc48ae79f978"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed101a1f-c7c0-4160-a087-adadedceb2c0">
+                    <propertyInstance
+                      Id="48395bbd-fd35-414c-9089-4eea6c0ebaa5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc47acbf-a391-43f0-b102-ad2dbd3a71fa">
+                    <propertyInstance
+                      Id="64d76b37-4bb0-45ba-a415-ece1b5e5ef0d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0da985ca-0b2e-4e71-a094-3625b294a6ca">
+                    <propertyInstance
+                      Id="572d43c4-bfac-4471-999c-5f84d9a92d8d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a64bd308-84d4-4745-ab4c-bf370e7874a9">
+                    <propertyInstance
+                      Id="56586c82-31a5-4348-817a-c183f27c24be"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5eff55ef-c0c8-4fac-b324-ffcefd75761b">
+                    <propertyInstance
+                      Id="c0818ccc-8c67-406d-b638-46037c60e950"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5a13a950-320a-4360-b0ec-42940d5710b3"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5e102d46-fa5d-4b7c-a7f9-791331924f48"
+                      LastKnownName="Task&lt;String‎&gt;"
+                      LastKnownLocation="Package1_2014.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="55eb2d72-f814-4c2d-9cb1-665989f3f966"
+                  name="request"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="53901473-9a08-4fd6-9fd4-0eec5a8b64f1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Helpers Type%3DHttpRequestHelper Member%3D(Name%3DGetMimeFileContents OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Net.Http.dll&quot; Namespace%3DSystem.Net.Http Type%3DHttpRequestMessage)]) ParameterIdentifier%3Drequest"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ef72fab-b8e1-41cf-a4f0-b924e6dfef1d"
+                      LastKnownName="HttpRequestMessage"
+                      LastKnownLocation="Package2_2014.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c660fdc5-1c2c-43cd-be4c-67ec0ba25f96"
+  name="Data"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ee0d8ca3-881d-404a-b4c8-85e858561b06"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DInfrastructure.Interfaces.Data"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="022f3c54-d136-4715-b53b-87f3982679ae"
+        name="IRenUkDataSource"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="2917b503-24c5-4ea1-bed7-373088cee35a"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Data Type%3DIRenUkDataSource"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ac0c03ab-d044-49a5-a489-e3842b7acaa0"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="873fc8c1-28e8-47c3-aae1-6b7b7267d8f9">
+                <propertyInstance
+                  Id="2716da83-9dea-4fbf-b8cf-840e83688234"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3514bc13-0b2c-471e-b9bc-5b23b810ff9b">
+                <propertyInstance
+                  Id="6acc2bd1-f99b-4268-94c8-cdbecd3303ca"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6eeecd4f-7ff8-4371-82c3-d28a129b03d7">
+                <propertyInstance
+                  Id="e44d4199-b741-4544-9f67-af4b677c1f1f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="27de91bc-ebc4-40d8-83c6-df9ee525563e">
+                <propertyInstance
+                  Id="cbd1039b-6a1a-49c7-abcc-9db2cbfdeb6d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="81682bdd-9e2c-45d4-94db-0f15707474f8"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="f8cd8d6e-5b57-4192-ba0c-f2718a2ff7b7"
+              LastKnownName="IDataSource"
+              LastKnownLocation="Package1_1447.uml" />
+          </generalization>
+        </generalsInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="f8cd8d6e-5b57-4192-ba0c-f2718a2ff7b7"
+        name="IDataSource"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="80dfb00d-9aae-4db5-be86-00823dac0bd2"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Data Type%3DIDataSource"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c7f5551d-9439-4d94-b8b3-a83c03a85d83"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="163ae0f7-8f24-478b-bbfd-b20d9f7dd1a4">
+                <propertyInstance
+                  Id="d7069b5e-2a97-4424-ab5a-3d6f16beda63"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bc8d5668-b3d8-4404-8959-ce414ff00e7c">
+                <propertyInstance
+                  Id="97cbb8ca-ce6c-42c2-9267-252cdb0f3880"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86663e15-f1e9-4400-85c0-d357780ef434">
+                <propertyInstance
+                  Id="728f3e63-ea2f-4b5d-81f0-a23ba261a0d8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c29f055-3f05-42d0-89f1-5fbcf7142293">
+                <propertyInstance
+                  Id="95975c6a-1816-4faf-b6fc-a01627930484"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="547e1584-bfca-4321-9dce-d7e0b7c3d3af"
+        name="IUnitOfWork"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="5b5bfe43-2c83-4bd1-9c86-3a0b01e594be"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Data Type%3DIUnitOfWork"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d45eb11c-753c-4b22-a591-974269d205ad"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3f1514b6-3512-4cf1-b6a9-2468c057d1d2">
+                <propertyInstance
+                  Id="ed4e804d-d676-4ecb-b403-1075f4f425c5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4fdc22a4-ffd2-4f07-b925-aa2ca52a567f">
+                <propertyInstance
+                  Id="943c941a-6b88-4db7-9ca4-fd9587597811"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2bd8d230-fb76-40ef-8beb-544caf446000">
+                <propertyInstance
+                  Id="450de2b3-937a-412b-a1b3-e2f4d79123f6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0a5951f7-4c83-488b-be3b-370af4729364">
+                <propertyInstance
+                  Id="36dc780a-e878-4ba8-8a13-e0bb36db74c4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="666154df-1ac5-4478-a6c9-b79deb832b02"
+        name="IDataSourceResolver"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="1ae36b76-4e78-4743-b718-2e255edc3cd8"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Data Type%3DIDataSourceResolver"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d8932bc6-693e-4645-9338-49ad246364c7"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc23c32c-1fba-473e-ba06-3e1a98d826d9">
+                <propertyInstance
+                  Id="6d497ad6-3d82-4d57-a2ce-7c10ee709009"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c9098152-958c-4d84-95f4-d632b9bd4079">
+                <propertyInstance
+                  Id="334710a7-f09b-4ea8-a4d0-c2837e68e6ca"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="18653eb0-a74a-4817-b9db-ab8026567a7b">
+                <propertyInstance
+                  Id="8f6ab360-08f0-483a-b0d0-de1818d59d55"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26ba089e-2eac-4d49-8023-abdc6e0151c1">
+                <propertyInstance
+                  Id="ffaec10e-cb0b-4a17-83b2-de92e7b50584"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="d25223fd-c0cb-4378-a58f-67a9b327b92f"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="022f3c54-d136-4715-b53b-87f3982679ae"
+              LastKnownName="IRenUkDataSource"
+              LastKnownLocation="Package1_1447.uml" />
+          </generalization>
+          <generalization
+            Id="48cecc30-4add-4dc8-8a46-7969255bce5c"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="1df13b32-6610-4532-8a18-986a6e523a5c"
+              LastKnownName="ISnhDataSource"
+              LastKnownLocation="Package1_1447.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperations>
+          <operation
+            Id="72cc1258-dbe1-4ef6-b45f-130f408a0146"
+            name="Resolve"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="01e49db9-0898-4be1-8a5f-2dda0a8299ec"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Data Type%3DIDataSourceResolver Member%3D(Name%3DResolve OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4ce0590f-1f21-4861-a572-19e55dda59a6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8adecea-c60d-4835-ab82-10372396c5f1">
+                    <propertyInstance
+                      Id="573ea896-d14b-4201-b401-653a9fd6fdc0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07da103f-cc76-4e66-be15-b6576ec843a2">
+                    <propertyInstance
+                      Id="4f193026-b367-4bea-bc11-9b32cd8f311f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8161345c-20c5-4945-b08d-3188db05c4b3">
+                    <propertyInstance
+                      Id="06cc4fb5-facd-4860-a185-d14830df90eb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3585db2-9939-43af-8d75-a9bec3577ca9">
+                    <propertyInstance
+                      Id="ad1a62af-3223-4340-9996-ee2e53d12547"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee2d930b-ee85-4bf3-bfb5-316219096261">
+                    <propertyInstance
+                      Id="7af587b0-edfe-414d-bc3e-a7cd9188caa7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49c1e42c-2e88-4490-8e8b-bb5dabafbe05">
+                    <propertyInstance
+                      Id="effb4d35-c8c6-4413-a908-42b994999484"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4ef755d8-999b-4969-a28e-129ef464c745"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="f8cd8d6e-5b57-4192-ba0c-f2718a2ff7b7"
+                      LastKnownName="IDataSource"
+                      LastKnownLocation="Package1_1447.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4a098c59-976f-427e-b977-42b8ae656352"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="62ebae67-358e-46c4-9bd3-8257d719bc25"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Data Type%3DIDataSourceResolver Member%3D(Name%3DResolve OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UML Modelling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="1df13b32-6610-4532-8a18-986a6e523a5c"
+        name="ISnhDataSource"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="0a15d766-4203-4633-af9d-866eb1b8a29b"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Data Type%3DISnhDataSource"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="83f8f66d-8cc7-493c-881b-a391629a6119"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7dc45230-d79c-4947-9443-214fcb1f6f27">
+                <propertyInstance
+                  Id="8bac3990-5416-4dfd-9bc5-4511636b824a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4dadcd9a-7294-4c24-a9a6-1665deaf4f81">
+                <propertyInstance
+                  Id="61308494-12c8-4e94-b302-29c5339ae39d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a8d9efc-13e5-4e7f-a336-76473d1367e0">
+                <propertyInstance
+                  Id="8d2c709f-8583-4a3e-a73e-2b3c92f1a580"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="467dd4dc-b1f1-41f5-8b35-0178212adc90">
+                <propertyInstance
+                  Id="a50169a1-42b2-4b28-9b78-3cb2c8b25ed7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="43eb0104-0b12-4c6e-9133-380e15302251"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="f8cd8d6e-5b57-4192-ba0c-f2718a2ff7b7"
+              LastKnownName="IDataSource"
+              LastKnownLocation="Package1_1447.uml" />
+          </generalization>
+        </generalsInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

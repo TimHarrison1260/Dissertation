@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="5a400583-953f-4501-9156-cbd6864bf67c"
+  name="Services"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1572d150-5cc2-462e-a80c-d40f7e7a20d9"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DInfrastructure.Interfaces.Services"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="9bf75e6f-0e1a-4779-8b39-1583041d1856"
+        name="IImportServiceResolver"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="919e573f-1b88-41fe-8b53-8acdf6a017eb"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Services Type%3DIImportServiceResolver"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="14a19ca7-deb7-459c-9662-faf4b9f497ae"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c5d08165-c759-404b-a831-6c4d9dd96660">
+                <propertyInstance
+                  Id="c4150016-9af1-4dc5-8dd1-231ffe206e61"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5fa25f43-8802-457f-96ed-23eb826052f3">
+                <propertyInstance
+                  Id="856c6128-dc38-40ae-ac32-ced7f872c35e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eef483a7-bd20-45f5-907d-2ce94957a501">
+                <propertyInstance
+                  Id="45f838b3-6244-4549-b0ed-432f6fcd0450"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8459660b-3882-4d0d-93f4-f8b9c0117575">
+                <propertyInstance
+                  Id="d84e7e22-10fb-4444-a03b-b948cabca376"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="d95349ba-497c-4e38-84a7-7618199306d6"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="d4ee2e4c-ad9b-44ba-b6ea-96e5d21cc301"
+              LastKnownName="IRenUkImportService"
+              LastKnownLocation="Package1_1817.uml" />
+          </generalization>
+          <generalization
+            Id="ebfca4cc-e2b6-4dff-8c87-89b1fee46e8b"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="44b717f6-d409-4686-9ec8-4bc5ae6245a9"
+              LastKnownName="ISnhImportService"
+              LastKnownLocation="Package1_1817.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperations>
+          <operation
+            Id="c3ab3dc8-d0c0-4d82-baa2-7730f291c1d5"
+            name="Resolve"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="26d12922-b5d3-446f-ac79-4f4bad104d2f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Services Type%3DIImportServiceResolver Member%3D(Name%3DResolve OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2a17985e-9864-40f3-8c0e-bd2d0140629b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e43f46b3-4412-4dd2-8981-592a745220f8">
+                    <propertyInstance
+                      Id="a256c4d2-3c2f-4962-9672-dfb0429fac0e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88630e24-b2f5-4272-818a-ff64616529c5">
+                    <propertyInstance
+                      Id="016ddd41-442f-4cae-bd9e-171a696d7385"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd08911a-c72a-4e24-8e27-8ac646f42f8a">
+                    <propertyInstance
+                      Id="c62df787-50cb-44f8-af3e-8e5c8a0fb1fd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="314a8d18-4cba-4ae1-9ef1-3acec5da21bc">
+                    <propertyInstance
+                      Id="44de5630-9d89-43a1-9cb0-e15f5527c26d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec3539ed-3360-41ff-9462-b51cd7c93b1f">
+                    <propertyInstance
+                      Id="ca38eb55-6c93-4af4-9145-893cd1fad4e8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6bd43a1-490e-4812-9ba0-4bf2fde772f3">
+                    <propertyInstance
+                      Id="c95891f7-03c0-4427-9274-b50b4033eb90"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e34b338a-0e7c-4cd3-8426-2c4fb797dc57"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="59e8324c-7db8-4f1b-853d-48ae38431271"
+                      LastKnownName="IImportService"
+                      LastKnownLocation="Package1_1817.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9a0777a5-3e5f-401f-887c-a6bfdb81beb7"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5c10034b-afd5-4622-ba1a-630d514189c3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Services Type%3DIImportServiceResolver Member%3D(Name%3DResolve OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UML Modelling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

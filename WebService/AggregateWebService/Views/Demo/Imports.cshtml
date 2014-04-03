@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Imports";
+}
+
+<h2>Imports</h2>
+
+<div id="apilinks">
+    <ul>
+        <li>
+            <div class="inline" >Import SNH (Dataset)</div>
+            <a href="#" id="importSnh" class="inline" title="Import" data-method="put" data-input="kmlfile">/api/import/1</a>
+            <div class="inline">
+                <span  class="inline">Upload KML file</span>
+                <input id="kmlfile" class="inline" name="kmlfile" type="file"/>
+            </div>
+        </li>
+        <li>
+            <div class="inline">Import RnewableUk (Web Scrape)</div>
+            <a href="#" id="importRenUk" class="inline" title="Import" data-method="put" data-input="none">/api/import/2</a>
+        </li>
+    </ul>
+</div>
+

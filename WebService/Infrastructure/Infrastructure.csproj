@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E94A0CF-4712-457D-9789-86962FA9D2F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Infrastructure</RootNamespace>
+    <AssemblyName>Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\DicesCoefficient.cs" />
+    <Compile Include="Algorithms\LCSubstr.cs" />
+    <Compile Include="Algorithms\LevenshteinEditDistance.cs" />
+    <Compile Include="Algorithms\MatchingAlgorithm.cs" />
+    <Compile Include="Algorithms\NamespacDoc.cs" />
+    <Compile Include="Algorithms\PreProcessor.cs" />
+    <Compile Include="Algorithms\PreProcessTypesEnum.cs" />
+    <Compile Include="Data\AggregateContext.cs" />
+    <Compile Include="Data\NamespaceDoc.cs" />
+    <Compile Include="Data\RenUkDataSource.cs" />
+    <Compile Include="Data\SnhDataSource.cs" />
+    <Compile Include="Helpers\AggregateNameComparer.cs" />
+    <Compile Include="Helpers\ExtensionMethods.cs" />
+    <Compile Include="Helpers\NamespaceDoc.cs" />
+    <Compile Include="Helpers\RenUkHtmlHelper.cs" />
+    <Compile Include="Helpers\SnhKmlHelper.cs" />
+    <Compile Include="Interfaces\Algorithms\IAlgorithmPreProcess.cs" />
+    <Compile Include="Interfaces\Algorithms\ICoefficientAlgorithm.cs" />
+    <Compile Include="Interfaces\Algorithms\NamespaceDoc.cs" />
+    <Compile Include="Interfaces\Data\IDataSource.cs" />
+    <Compile Include="Interfaces\Algorithms\IEditDistanceAlgorithm.cs" />
+    <Compile Include="Interfaces\Algorithms\IMatchingAlgorithm.cs" />
+    <Compile Include="Interfaces\Data\IDataSourceResolver.cs" />
+    <Compile Include="Interfaces\Data\NamespaceDoc.cs" />
+    <Compile Include="Interfaces\Helpers\ISnhKmlHelper.cs" />
+    <Compile Include="Interfaces\Helpers\IRenUkHtmlHelper.cs" />
+    <Compile Include="Interfaces\Algorithms\IStringSimilarityAlgorithm.cs" />
+    <Compile Include="Interfaces\Data\IRenUkDataSource.cs" />
+    <Compile Include="Interfaces\Data\ISnhDataSource.cs" />
+    <Compile Include="Interfaces\Algorithms\IAlgorithm.cs" />
+    <Compile Include="Interfaces\Data\IUnitOfWork.cs" />
+    <Compile Include="Interfaces\Helpers\NamespaceDoc.cs" />
+    <Compile Include="Interfaces\Mappers\IMapper.cs" />
+    <Compile Include="Interfaces\Mappers\NamespaceDoc.cs" />
+    <Compile Include="Interfaces\NamespaceDoc.cs" />
+    <Compile Include="Interfaces\Services\IImportServiceResolver.cs" />
+    <Compile Include="Mappers\ImportAggregateToAggregateMapper.cs" />
+    <Compile Include="Migrations\201312061031590_InitialModel.cs" />
+    <Compile Include="Migrations\201312061031590_InitialModel.Designer.cs">
+      <DependentUpon>201312061031590_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201403060918252_AddAggregateDataNavProperty.cs" />
+    <Compile Include="Migrations\201403060918252_AddAggregateDataNavProperty.Designer.cs">
+      <DependentUpon>201403060918252_AddAggregateDataNavProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="NamespaceDoc.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AggregateRepository.cs" />
+    <Compile Include="Repositories\DataSourceRepository.cs" />
+    <Compile Include="Repositories\DataTypeRepository.cs" />
+    <Compile Include="Repositories\NamespaceDoc.cs" />
+    <Compile Include="Resolvers\DataSourceResolver.cs" />
+    <Compile Include="ServiceModel\ImportAggregate.cs" />
+    <Compile Include="ServiceModel\ImportData.cs" />
+    <Compile Include="ServiceModel\NamespaceDoc.cs" />
+    <Compile Include="Services\AbstractImportService.cs" />
+    <Compile Include="Services\DataService.cs" />
+    <Compile Include="Resolvers\ImportServiceResolver.cs" />
+    <Compile Include="Services\NamespaceDoc.cs" />
+    <Compile Include="Services\RenUkImportService.cs" />
+    <Compile Include="Services\SnhImportService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{c6c46e91-c064-434d-97cb-6308d266e350}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201312061031590_InitialModel.resx">
+      <DependentUpon>201312061031590_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201403060918252_AddAggregateDataNavProperty.resx">
+      <DependentUpon>201403060918252_AddAggregateDataNavProperty.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Style id="Installed">
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffc8d0d4</color>
+			<width>0.4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff290589</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="Approved">
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffc8d0d4</color>
+			<width>0.4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff5100ff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="Scoping">
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffc8d0d4</color>
+			<width>0.4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="Application">
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffc8d0d4</color>
+			<width>0.4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00c8ff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+</Document>
+</kml>

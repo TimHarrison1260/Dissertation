@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d38dfa96-0182-4692-a43f-b25356223927"
+  name="Generators"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="898c9032-dc55-4b4b-abb8-0fbc6bf34375"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAggregateWebService.Generators"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f20b9b4b-6ba4-44b8-9e50-163f8463d1e6"
+        name="AggregateLinkGenerator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4c425a21-7b00-4f65-bad4-5c2992199323"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Generators Type%3DAggregateLinkGenerator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="48a6eee2-a850-430f-b58f-5256856c9175"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dad8237f-e4f6-431d-a0a9-fbdd3ca50707">
+                <propertyInstance
+                  Id="14195051-ced3-4e8e-9bec-8db9a88ebd24"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb0d712b-f5eb-4588-bff6-b9c1f35395f1">
+                <propertyInstance
+                  Id="60d30099-0dc3-4d63-b977-3ed26717f4f9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f805f0b4-01cd-4cd5-abd5-28afb2cb300f">
+                <propertyInstance
+                  Id="fe1b0b41-3b79-4881-9209-52b45891f112"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="641d69bf-0c6d-43d9-bd82-cb349ee605c8">
+                <propertyInstance
+                  Id="4a4795e3-b803-4269-b475-49305dd7d8f8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f8e835d0-19ef-47a2-a693-2881c841c699">
+                <propertyInstance
+                  Id="ebaea15d-400a-4389-a38e-3ba796286fe9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="8885b826-6605-4a48-acd8-bca2d02a54b5">
+            <interfaceMoniker
+              Id="708bb10d-2623-46f3-a8b3-61c78bcca404"
+              LastKnownName="IAggregateLinkGenerator"
+              LastKnownLocation="Package2_1141.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="aecd0f00-0977-4613-ab74-54c7364c64db"
+            name="GenerateCollectionLinks"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="690d9c93-393a-484a-8666-540cf82049d3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Generators Type%3DAggregateLinkGenerator Member%3D(Name%3DGenerateCollectionLinks OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FCore%2Fbin%2FDebug%2FCore.dll&quot; Namespace%3DCore.Model Type%3DAggregate)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="38cf8288-040a-4906-8f2f-6fd6ecc02553"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5dcc9ed7-e125-4ed0-9440-84166e82cb78">
+                    <propertyInstance
+                      Id="d8385dcf-9be3-4955-84fe-6af2d608f963"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30985ece-78d4-4098-8d49-94a8eb04455a">
+                    <propertyInstance
+                      Id="39f3f047-f410-444a-8ee7-303318f0d284"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7aaefcf-9f3d-4e6d-935a-aba22da0b44b">
+                    <propertyInstance
+                      Id="1ebee5e2-bce7-49d4-86ba-2bf3777de52c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae44605d-d9a2-4975-9b73-6e0a64800d38">
+                    <propertyInstance
+                      Id="50a5ee6a-75dc-4fc2-80dc-fc083731cdd8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f714bb3-60fc-4952-95e5-2f603c401a0c">
+                    <propertyInstance
+                      Id="a52f73d5-66ab-4d70-b338-0c17689fd4c1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b4a50ef-7c91-4e32-8536-7ab6dfe9d325">
+                    <propertyInstance
+                      Id="451e12d8-4d2c-46e7-bbed-323c0e331d7b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="350eb2b3-e197-4a90-a11e-cd86ef9495ae"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="1e368d78-cbf6-4df5-b05e-72f5dddc5bad"
+                      LastKnownName="IEnumerable&lt;Link‎&gt;"
+                      LastKnownLocation="Package4_1429.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5bcaa0ec-b774-4c2e-a853-47969e7af98e"
+                  name="aggregate"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b3d3822c-2cdc-41a9-b7c2-59d89623e02d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Generators Type%3DAggregateLinkGenerator Member%3D(Name%3DGenerateCollectionLinks OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FCore%2Fbin%2FDebug%2FCore.dll&quot; Namespace%3DCore.Model Type%3DAggregate)]) ParameterIdentifier%3Daggregate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ac98e8a6-512f-4bf5-b58f-48f951ceda88"
+                      LastKnownName="Aggregate"
+                      LastKnownLocation="Package1_1429.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f827319e-fd35-4e9d-89b8-bbf0c63d4675"
+            name="GenerateItemLinks"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="665ea8fc-8f94-44cc-afe4-4a2a2f3d12a2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Generators Type%3DAggregateLinkGenerator Member%3D(Name%3DGenerateItemLinks OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FCore%2Fbin%2FDebug%2FCore.dll&quot; Namespace%3DCore.Model Type%3DAggregate)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="303ea018-d5c3-4d3a-b462-2b080333ac75"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e55b3fb3-96bb-4afe-9ece-b93e14100033">
+                    <propertyInstance
+                      Id="6d8e5310-d0b2-494b-9f6c-b61239c628c0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="def3d7d4-143a-4ab4-b865-1d42c23457fe">
+                    <propertyInstance
+                      Id="996a2e63-fb16-4e8c-a706-dc2efbeadf78"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="539ace6a-8de7-42cb-be88-749e4a6aaeb6">
+                    <propertyInstance
+                      Id="ab84ede4-55d0-43c7-8f06-a63b001d51ad"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="968d6977-ae27-403f-8c27-ed995f15fae8">
+                    <propertyInstance
+                      Id="67d490d5-706a-4e71-93f2-170b5297f644"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd39190f-b075-4726-ab04-b18c394e3f4a">
+                    <propertyInstance
+                      Id="8043c399-ce0b-4c9c-baf7-26130ef52a17"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3a9c7c1-7239-4310-aadd-98bc7a16fe69">
+                    <propertyInstance
+                      Id="743e7db0-6759-445f-b606-bf2c1611fae9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="02316377-9bfd-4cb1-bdee-340e849c2bbc"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="1e368d78-cbf6-4df5-b05e-72f5dddc5bad"
+                      LastKnownName="IEnumerable&lt;Link‎&gt;"
+                      LastKnownLocation="Package4_1429.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="92c08e3c-e49b-4b8b-9ead-c1fa24299ad8"
+                  name="aggregate"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="df4718ac-edb7-4237-90c0-3859b6468373"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Generators Type%3DAggregateLinkGenerator Member%3D(Name%3DGenerateItemLinks OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FCore%2Fbin%2FDebug%2FCore.dll&quot; Namespace%3DCore.Model Type%3DAggregate)]) ParameterIdentifier%3Daggregate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ac98e8a6-512f-4bf5-b58f-48f951ceda88"
+                      LastKnownName="Aggregate"
+                      LastKnownLocation="Package1_1429.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="583d53c6-4dec-41cd-8a6f-648c58534457"
+            name="AggregateLinkGenerator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a599c8db-011e-4610-ba8b-abe7f1a6abac"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Generators Type%3DAggregateLinkGenerator Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0ae045c9-98f0-4ce4-93e5-081e5b656fed"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2fabca1-4334-48b0-9376-b54c48b47a48">
+                    <propertyInstance
+                      Id="2aae9272-7e04-4a47-ac93-593a4f1d5d8d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="056d59fc-9291-498c-8ee5-56ea6580ea37">
+                    <propertyInstance
+                      Id="da001f14-3f29-4400-8fef-b2f2f5b513ea"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa180d0a-9fdd-40d3-b198-d3e730f3dbea">
+                    <propertyInstance
+                      Id="9272e5ba-961e-42ea-b879-ea45849a86b3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5500e16-9e11-418a-aca4-a7bf7d79839b">
+                    <propertyInstance
+                      Id="06570e0f-3578-434e-8163-8e42b522997e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1e30f9c-c2f0-4d0d-b928-099d286b8827">
+                    <propertyInstance
+                      Id="53696b31-57a6-4553-8bf2-e2d1e281d8ab"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15d43717-8188-4b11-b302-fc1ef4298c7d">
+                    <propertyInstance
+                      Id="f6d5771f-59f5-43e7-b71f-e76dae8b1a0c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

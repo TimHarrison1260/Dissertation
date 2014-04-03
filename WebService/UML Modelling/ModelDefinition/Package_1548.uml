@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="352b2b6c-a1c5-4ecd-8d33-3b29f18745f1"
+  name="Infrastructure"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f16bac6f-d69f-4cdd-8a67-85f33d213256"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DInfrastructure"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="7fb13f74-7e4c-4b68-8a76-bfd2bfcbbe3c"
+        LastKnownName="Algorithms"
+        LastKnownLocation="Package1_1548.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="fcfaa6b9-a215-470e-b1c1-35eb8563eb3c"
+        LastKnownName="Interfaces"
+        LastKnownLocation="Package2_1548.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0e89cb20-705e-4c8d-b76f-b1bc1a0bab7f"
+        LastKnownName="Repositories"
+        LastKnownLocation="Package_1249.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="22d5de4f-d0c0-4388-8097-8894973cfaa3"
+        LastKnownName="Data"
+        LastKnownLocation="Package_1251.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="54009cdb-a565-464b-938d-85b74c26cb79"
+        LastKnownName="Services"
+        LastKnownLocation="Package_1640.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="510b692b-112e-4f2c-9cdb-4eec00c62c59"
+        LastKnownName="Mappers"
+        LastKnownLocation="Package1_1640.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2ea22bad-fc4a-48d7-8a21-a3a8843fc30f"
+        LastKnownName="ServiceModel"
+        LastKnownLocation="Package_1643.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f80dbfdb-019d-4314-8592-c50d6cb7bd04"
+        LastKnownName="Helpers"
+        LastKnownLocation="Package2_1823.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
