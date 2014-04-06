@@ -187,7 +187,6 @@
     <Compile Include="Controllers\DatatypeController.cs" />
     <Compile Include="Controllers\FootprintController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Controllers\WindfarmController.cs" />
     <Compile Include="Extensions\HttpNotFoundAwareControllerActionSelector.cs" />
     <Compile Include="Extensions\HttpNotFoundAwareDefaultHttpControllerSelector.cs" />

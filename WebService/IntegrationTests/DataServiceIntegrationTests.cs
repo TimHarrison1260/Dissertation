@@ -59,7 +59,7 @@ namespace IntegrationTests
         private const int SnhDataSourceId = 1;
         private const int RenUkDatasourceId = 2;
         private const int NonExistentDataSource = 99;
-        private const int AikengallAggregate = 10;
+        private const int AikengallAggregate = 2;
         private const int NonExistentAggregate = 9999;
 
         public DataServiceIntegrationTests()
@@ -176,7 +176,7 @@ namespace IntegrationTests
             //  Assert
             Assert.IsNotNull(result, "Expected some datasources to be returned.");
             Assert.IsTrue(minDatasources, "Expected at least 2 datasources to be returned 'SNH & RenUK'.");
-            Assert.AreEqual("Snh KML Source", result[0].Title, "Expected 'SNH' as the first datasource");
+            Assert.AreEqual("Scottish Natural Heritage KML Source", result[0].Title, "Expected 'SNH' as the first datasource");
             Assert.AreEqual("RenewableUk WebSite", result[1].Title, "Expected 'RenUk' as the second datasource");
         }
 
@@ -192,7 +192,7 @@ namespace IntegrationTests
 
             //  Assert
             Assert.IsNotNull(result, "Expected 'SNH' datasource to be returned.");
-            Assert.AreEqual("Snh KML Source", result.Title, "Expected 'SNH' as the first datasource");
+            Assert.AreEqual("Scottish Natural Heritage KML Source", result.Title, "Expected 'SNH' as the first datasource");
         }
 
         [TestMethod]
@@ -220,16 +220,14 @@ namespace IntegrationTests
             var result = dataService.GetDataTypes().ToArray();
 
             //  Assert
-            var minCount = result.Count() >= 3;
-            Assert.IsTrue(minCount, "Expected at least 3 data types to be returned");
+            var minCount = result.Count() >= 2;
+            Assert.IsTrue(minCount, "Expected at least 2 data types to be returned, 'Status' and 'Turbine'");
 
             var containsStatus = result.Contains("Status");
-            var containsFootPrint = result.Contains("FootPrint");
-            var containsStatistics = result.Contains("Statistics");
+            var containsTurbine = result.Contains("Turbine");
 
             Assert.IsTrue(containsStatus, "Expected 'Status' to be in the returned datatypes.");
-            Assert.IsTrue(containsFootPrint, "Expected 'FootPrint' to be in the returned datatypes.");
-            Assert.IsTrue(containsStatistics, "Expected 'Statistics' to be in the returned datatypes.");
+            Assert.IsTrue(containsTurbine, "Expected 'turbine' to be in the returned datatypes.");
         }
 
         [TestMethod]
@@ -317,8 +315,8 @@ namespace IntegrationTests
             var result = dataService.GetAggregatesWithDataType(DataTypeEnum.Status).ToArray();     // Get all aggregates
 
             //  Assert
-            var minCount = result.Count() >= 10;
-            Assert.IsTrue(minCount, "Expected at least 10 aggregates to be returned");
+            var minCount = result.Count() >= 1; //  Aikengall can guarantee a Status segment
+            Assert.IsTrue(minCount, "Expected at least 1 aggregates to be returned");
 
         }
 
@@ -345,14 +343,15 @@ namespace IntegrationTests
                 var result = dataService.GetAggregateWithDataType(AikengallAggregate,DataTypeEnum.Status);
 
                 //  Assert
+                var resultData = result.Data.ToArray();
+                var minsegments = (resultData.Count() >= 1);
+
                 Assert.IsNotNull(result, "Expected aggregate 'Aikengall' to be returned");
                 Assert.AreEqual("Aikengall", result.Name, "Expected Name to be 'Aikengall'.");
-                Assert.AreEqual(3,result.Data.Count, "Expected only a single data segment 'Status' to be returned.");
+                Assert.IsTrue(minsegments, "Expected at least one data segment 'Status' to be returned.");
 
-                var resultData = result.Data.ToArray();
-                Assert.AreEqual(DataTypeEnum.Status, resultData[0].DataType, "Expected the first data segment to be a 'Status' segment.");
-                Assert.AreEqual(DataTypeEnum.FootPrint, resultData[1].DataType, "Expected the second data segment to be a 'Footprint' segment.");
-                Assert.AreEqual(DataTypeEnum.Statistics, resultData[2].DataType, "Expected the third data segment to be a 'Statistics' segment.");
+                Assert.AreEqual(DataTypeEnum.Status, resultData[0].DataType, "Expected the first data segment to be a 'Turbine' segment.");
+                Assert.AreEqual(DataTypeEnum.Turbine, resultData[1].DataType, "Expected the second data segment to be a 'Status' segment.");
             }
 
         }

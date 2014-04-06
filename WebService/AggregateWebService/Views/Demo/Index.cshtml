@@ -1,4 +1,4 @@
-﻿@Styles.Render("~/Content/Demo.css");
+﻿@Styles.Render("~/Content/Demo.css")
 
 <header>
     <div id="UrlHelpers" class="hidden">
@@ -15,13 +15,13 @@
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
-                <h1>Demonstrate the Windfarm Aggregation API: </h1>
-                <h2>calling examples URL's, using JavaScript and Ajax.</h2>
+                <h1>Demonstrate the API: </h1>
+                <h2>calling example URL's, using JavaScript and Ajax.</h2>
             </hgroup>
             <p>
-                Each of the menu items below demonstrate the resources available from the service.
-                Clicking a URL shown on any of the pages will perform an Ajax call to the API, showing
-                the results below, which consist of the Hypermedia links and the JSON returned from the call.  
+                Each of the menu items below demonstrate the resources available from the service.  Clicking a 
+                URL shown on any of the pages will perform an Ajax call to the API, showing
+                the results, which consist of the Hypermedia links and the JSON returned from the call.  
                 Each link return can also be clicked to progress through the api. The 'Freehand' menu displays
                 a page where any url can be constructed with any http verb to pass into the API.
             </p>
@@ -35,17 +35,16 @@
         </div>
     </section>
     <section class="content-wrapper main-content clear-fix">
-        <div id="partPage">
-            
-        </div>
-        
+        @*The placeholder for the partial page selected from the jsMenu*@
+        <div id="partPage"></div>
+        @*The div to display the results*@
         <div id ="returnvalues" class="returnvalues hidden">
             <span class="left-column">Hypermedia links</span>
             <span class="right-column">JSON returned from api call</span>
-            <div id="links" class="links left-column">
-            </div>
-            <div id="results" class="results right-column">
-            </div>
+            @*The div to display the hypermedia links returned by the API.*@
+            <div id="links" class="links left-column"></div>
+            @*The div to display the JSON returned by the API.*@
+            <div id="results" class="results right-column"></div>
         </div>
     </section>
 </div>
@@ -61,5 +60,5 @@
 
 @section scripts
 {
-    @Scripts.Render("~/bundles/demo");
+    @Scripts.Render("~/bundles/demo")
 }

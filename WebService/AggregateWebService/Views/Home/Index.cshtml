@@ -20,8 +20,31 @@
         </div>
     </section>
     <section class="content-wrapper main-content clear-fix">
-        
- 
+        <div>
+            <h3>Demonstration Application</h3>
+            <p>
+                This aplication is created by the MVC4 Web API template, which is customised to 
+                demostrate the specific API.  It has been customised to show the Wind farm Aggregation Service.
+            </p>
+            <p>
+                The menu options: <strong>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</strong>: shows 
+                this page, <strong>@Html.ActionLink("API", "Index", "Help", new {area=""}, null)</strong>:  
+                shows the default API documentation provided by the Web API framework and 
+                <strong>@Html.ActionLink("Demo", "Index", "Demo", new { area = "" }, null)</strong>: shows the demonstration 
+                page, which explores the individaul URL's supported by the API.  All calls are Async using JavaScript and Ajax
+                and support all allowable HTTP verbs and include the main resources defined within the API.  The demo page 
+                has the following options:
+            </p>
+            <div class="indent">
+                <strong>Datasource</strong>: URL's to list the datasources defined to the service and the details of each 
+                data source.<br/>
+                <strong>Import</strong>: the URL's to import the datasource to the aggregation: This is where the aggregation
+                of the windfarm data is done.<br/>
+                <strong>Datatype</strong>: the URL's that show the various datatypes provided by the datasources.<br/>
+                <strong>Windfarm</strong>: the URL's supporting the windfarms aggregated from the various data sources.<br/>
+                <strong>Freehand</strong>: allows URL's to be constructed to test the API's support for invalid URL's.<br/>
+            </div>
+        </div>
     </section>
 </div>
 
