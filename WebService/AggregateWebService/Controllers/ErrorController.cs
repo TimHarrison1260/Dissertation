@@ -23,8 +23,7 @@ namespace AggregateWebService.Controllers
             var message = new HttpResponseMessage(HttpStatusCode.NotFound);
             message.ReasonPhrase = "Requested Resource not found:  " + 
                 "or Http method not supported for this resource";
-            return message;            
-//            return Request.CreateResponse(HttpStatusCode.NotFound, "Requested Resource is not found.");
+            return message;
         }
     }
 }

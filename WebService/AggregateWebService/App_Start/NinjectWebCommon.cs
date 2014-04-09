@@ -72,6 +72,8 @@ namespace AggregateWebService.App_Start
             kernel.Bind<IDataTypeMapper>().To<Mappers.DataTypeMapper>();
             //  Bind the mapper for the Aggregates (Windfarms)
             kernel.Bind<IAggregateMapper>().To<Mappers.AggregateMapper>();
+            //  Bind the mapper for the Datasource Imports
+            kernel.Bind<IImportMapper>().To<Mappers.ImportMapper>();
 
             //  Bind the Link Generator classes (Windfarm: the Aggregate)
             kernel.Bind<IAggregateLinkGenerator>().To<AggregateLinkGenerator>();
@@ -87,6 +89,8 @@ namespace AggregateWebService.App_Start
             kernel.Bind<IDataTypeLinkGenerator>().To<DataTypeLinkGenerator>();
             //  Bind the Link Generator classes (Turbine)
             kernel.Bind<ITurbineLinkGenerator>().To<TurbineLinkGenerator>();
+            //  Bind the Link Generator classes (Turbine)
+            kernel.Bind<IImportLinkGenerator>().To<ImportLinkGenerator>();
 
             //  Bind the HttpRequest Helper class (Import)
             kernel.Bind<IHttpRequestHelper>().To<Helpers.HttpRequestHelper>();

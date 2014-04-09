@@ -275,7 +275,7 @@
                 if (element.attr("data-input") != 'none') {
                     //  Get the uploaded file.  The Id is in the data-input attribute
                     //  Snh: call api after ensuring source file uploaded
-                    var formData = new FormData();
+                    var formData = new FormData();      //  IE10+
                     var inputElement = '#' + element.attr('data-input');
                     var inputfile = $(inputElement)[0];
                     if (inputfile == undefined || inputfile.files.length == 0) {
@@ -399,9 +399,21 @@
             return html;
         }
 
-        function processImport(result) {
-            $('#results').html("Ajax returned with: " + result);
-            $('#returnvalues').show();
+        function processImport(importresult) {
+            var name = importresult.Result;
+            var html = '<p>' + name + '</p>';
+            html = html + '<ul>';
+            var dlinks = importresult.Links;
+            for (var l in dlinks) {
+                html += '<li>';
+                html += toLinkTag(dlinks[l]);
+                html += '<span class="linkname">' + dlinks[l].Rel + '</span>';
+                html += '</li>';
+            }
+            html += '</ul>';
+            return html;
+            //$('#results').html("Ajax returned with: " + result);
+            //$('#returnvalues').show();
         }
 
         function processDataTypeCollection(datatypes) {

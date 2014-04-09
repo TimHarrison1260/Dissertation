@@ -190,6 +190,7 @@
     <Compile Include="Controllers\WindfarmController.cs" />
     <Compile Include="Extensions\HttpNotFoundAwareControllerActionSelector.cs" />
     <Compile Include="Extensions\HttpNotFoundAwareDefaultHttpControllerSelector.cs" />
+    <Compile Include="Generators\ImportLinkGenerator.cs" />
     <Compile Include="Generators\TurbineLinkGenerator.cs" />
     <Compile Include="Generators\StatisticsLinkGenerator.cs" />
     <Compile Include="Generators\StatusLinkGenerator.cs" />
@@ -200,12 +201,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\HttpRequestHelper.cs" />
+    <Compile Include="Interfaces\Generators\IImportLinkGenerator.cs" />
     <Compile Include="Interfaces\Generators\ITurbineLinkGenerator.cs" />
     <Compile Include="Interfaces\Generators\IStatusLinkGenerator.cs" />
     <Compile Include="Interfaces\Generators\IStatisticsLinkGenerator.cs" />
     <Compile Include="Interfaces\Generators\IFootprintLinkGenerator.cs" />
     <Compile Include="Interfaces\Generators\IDatasourceLinkGenerator.cs" />
     <Compile Include="Interfaces\Generators\IDataTypeLinkGenerator.cs" />
+    <Compile Include="Interfaces\Mappers\IImportMapper.cs" />
     <Compile Include="Interfaces\Mappers\IAggregateMapper.cs" />
     <Compile Include="Interfaces\Mappers\IDataTypeMapper.cs" />
     <Compile Include="Interfaces\Mappers\IDatasourceMapper.cs" />
@@ -214,8 +217,10 @@
     <Compile Include="Interfaces\Helpers\IHttpRequestHelper.cs" />
     <Compile Include="Interfaces\Generators\ILinkGenerator.cs" />
     <Compile Include="Mappers\AggregateMapper.cs" />
+    <Compile Include="Mappers\ImportMapper.cs" />
     <Compile Include="Mappers\DataSourcesMapper.cs" />
     <Compile Include="Mappers\DataTypeMapper.cs" />
+    <Compile Include="Models\ImportInfo.cs" />
     <Compile Include="Models\Windfarm.cs" />
     <Compile Include="Models\WindfarmData.cs" />
     <Compile Include="Models\WindfarmInfo.cs" />

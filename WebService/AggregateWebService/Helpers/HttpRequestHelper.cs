@@ -42,19 +42,15 @@ namespace AggregateWebService.Helpers
             if (_provider.FileData.Count > 0)
             {
                 //  Read the contents of the uploaded file, for passing into the Import facility
-                var localfilename = _provider.FileData[0].LocalFileName;
-                using (var reader = new StreamReader(new FileStream(localfilename, FileMode.Open, FileAccess.Read)))
+                _tempFileName = _provider.FileData[0].LocalFileName;
+                using (var reader = new StreamReader(new FileStream(_tempFileName, FileMode.Open, FileAccess.Read)))
                 {
                     fileContents = await reader.ReadToEndAsync();
                 }
+                //  Delete the temporary file.
+                if (File.Exists(_tempFileName))
+                    File.Delete(_tempFileName);
             }
-
-            //  Delete the temporary file.
-            //var filename = _provider.FileData.
-
-
-
-
 
             return fileContents;
         }

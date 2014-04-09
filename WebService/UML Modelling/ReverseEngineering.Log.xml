@@ -6,16 +6,18 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="High" Text="Reverse Engineering Started." />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService' -  (Package)" />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Models' -  (Package)" />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Models::Link' -  (Class)" />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Models::Link::Href' -  (Property)" />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Models::Link::Link' -  (Operation)" />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Models::Link::Rel' -  (Property)" />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Models::Link::Title' -  (Property)" />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Models::Link::Type' -  (Property)" />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="High" Text="(1) type(s) fully reverse engineered." />
-  <Message Timestamp="2014-03-26T14:52:15" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+  <Message Timestamp="2014-04-08T14:49:04" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '7295ef81-0dca-4d7b-9849-9a2b4c60c5e9' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService' -  (Package)" />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Interfaces' -  (Package)" />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Interfaces::Generators' -  (Package)" />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="Medium" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Interfaces::Generators::IImportLinkGenerator' -  (Interface)" />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Interfaces::Generators::ILinkGenerator' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UML Modelling::AggregateWebService::Interfaces::Generators::ILinkGenerator&lt;Int32‎&gt;' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: UML Modelling::AggregateWebService::Interfaces::Generators::IImportLinkGenerator to UML Modelling::AggregateWebService::Interfaces::Generators::ILinkGenerator&lt;Int32‎&gt; (Generalization)" />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: UML Modelling::AggregateWebService::Interfaces::Generators::IImportLinkGenerator to UML Modelling::AggregateWebService::Interfaces::Generators::ILinkGenerator (Generalization)" />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="High" Text="(2) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-04-08T14:49:08" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
 </Log>

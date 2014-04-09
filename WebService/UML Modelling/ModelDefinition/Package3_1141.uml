@@ -79,7 +79,7 @@
         <referencesInternal>
           <reference
             Id="c23b14f3-fe10-4288-96c3-dca689cb7462"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Models Type%3DLink"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Models Type%3DLink"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -3568,6 +3568,64 @@
             </appliedStereotypesInternal>
           </operation>
         </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0c94452f-dc8a-4a22-813b-99e90f375372"
+        name="ImportInfo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="426e67fc-12c4-4cff-a072-c2686e30cee6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FAggregateWebService%2Fbin%2FAggregateWebService.dll&quot; Namespace%3DAggregateWebService.Models Type%3DImportInfo"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ca052b9d-ddfe-4d76-ba45-8ac6e0f1b380"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fd6d966a-76d0-477a-84fd-266cd8e554b9">
+                <propertyInstance
+                  Id="9b4a55e1-3c8c-4709-86d7-8c1b28b3df27"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8673bf1f-fba1-4d84-9a67-4c5281649bd3">
+                <propertyInstance
+                  Id="88507752-6b7b-4988-b5f8-2dab9f09e917"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="25705aa4-d6c6-43e7-ac91-508fe68d0f95">
+                <propertyInstance
+                  Id="77e8f258-01cc-4bcf-8999-7f734a1998fd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26fbc12e-4acc-4fa4-be36-659527731831">
+                <propertyInstance
+                  Id="9a402681-9420-4851-8bce-cdb98ca9722c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="70a55b7d-42d0-47cb-bf73-48aa414474e6">
+                <propertyInstance
+                  Id="a60dcda7-969f-47be-8093-d31716a555e6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>

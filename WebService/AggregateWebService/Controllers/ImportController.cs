@@ -4,6 +4,8 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using AggregateWebService.Interfaces.Helpers;
+using AggregateWebService.Interfaces.Generators;
+using AggregateWebService.Interfaces.Mappers;
 using Core.Interfaces.Services;
 
 namespace AggregateWebService.Controllers
@@ -13,22 +15,32 @@ namespace AggregateWebService.Controllers
     /// </summary>
     public class ImportController : ApiController
     {
-        private readonly IDataService _service;         //  Data service for accessing Aggregates
-        private readonly IHttpRequestHelper _helper;    //  Helper class
+        private readonly IDataService _service;             //  Data service for accessing Aggregates
+        private readonly IImportMapper _mapper ;            //  Map results to ImportInfo
+        private readonly IImportLinkGenerator _generator;   //  Generator of hypermedia links
+        private readonly IHttpRequestHelper _helper;        //  Helper class
 
         /// <summary>
         /// Ctor: Accepts injected dataservice
         /// </summary>
         /// <param name="dataService">The DataService instance being injected</param>
+        /// <param name="mapper"></param>
+        /// <param name="generator">The Hypermedia link generator</param>
         /// <param name="helper">The helper class instance</param>
-        public ImportController(IDataService dataService, IHttpRequestHelper helper)
+        public ImportController(IDataService dataService, IImportMapper mapper, IImportLinkGenerator generator, IHttpRequestHelper helper)
         {
             if (dataService == null)
                 throw new ArgumentNullException("dataService", "No valid dataservice supplied to the controller.");
+            if (mapper == null)
+                throw new ArgumentNullException("mapper", "No valid mapper supplied to the controller.");
+            if (generator == null)
+                throw new ArgumentNullException("generator", "No valid link generator supplied to the controller.");
             if (helper == null)
                 throw new ArgumentNullException("helper", "No valid helper supplied to the controller.");
 
             _service = dataService;
+            _mapper = mapper;
+            _generator = generator;
             _helper = helper;
         }
 
@@ -58,8 +70,12 @@ namespace AggregateWebService.Controllers
                 var result = await Task.Factory.StartNew(() => _service.ImportDataSource(id, fileContents));
 
                 if (result)
+                {
+                    //  Generate Hypermedia links
+                    var links = _mapper.MapSource(id, result, _generator);
                     //  Return successful import result.
-                    return Request.CreateResponse(HttpStatusCode.OK, "Resource successfully imported");
+                    return Request.CreateResponse(HttpStatusCode.OK, links);
+                }
 
                 //  otherwise Return an unsuccessful import result
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Resource not imported, Invalid source countent");
@@ -70,14 +86,6 @@ namespace AggregateWebService.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, e);
             }
         }
-
-        ////  Ensure unsupported verbs are caught and not found returned
-        //[AcceptVerbs(new string[] { "GET", "POST", "DELETE", "HEAD", "OPTIONS", "PATCH" })]
-        //public HttpResponseMessage UnsupportedRequest()
-        //{
-        //    return Request.CreateResponse(HttpStatusCode.NotFound, "Unsupported request.");
-        //}
-
 
     }
 }

@@ -39,6 +39,9 @@
     <Content Include="ModelDefinition\Package1_1141.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package1_1445.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package1_1447.uml">
       <SubType>Content</SubType>
     </Content>
@@ -73,6 +76,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1144.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1445.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1447.uml">

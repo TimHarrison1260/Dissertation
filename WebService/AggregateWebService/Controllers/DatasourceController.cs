@@ -40,7 +40,6 @@ namespace AggregateWebService.Controllers
         }
 
         // GET api/datasource
-        //public IEnumerable<DataSourceInfo> Get()
         public HttpResponseMessage Get()
         {
             var sources = _service.GeDataSources().ToArray();
@@ -51,7 +50,6 @@ namespace AggregateWebService.Controllers
         }
 
         // GET api/datasource/5
-        //public DataSource Get(int id)
         public HttpResponseMessage Get(int id)
         {
             var source = _service.GetDataSource(id);
@@ -65,11 +63,5 @@ namespace AggregateWebService.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, output);
         }
 
-        ////  Ensure unsupported verbs are caught and not found returned
-        //[AcceptVerbs(new string[] { "POST", "PUT", "DELETE", "HEAD", "OPTIONS", "PATCH" })]
-        //public HttpResponseMessage UnsupportedRequest()
-        //{
-        //    return Request.CreateResponse(HttpStatusCode.NotFound, "Unsupported request.");
-        //}
     }
 }

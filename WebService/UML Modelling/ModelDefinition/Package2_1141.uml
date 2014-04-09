@@ -799,5 +799,17 @@
         </ownedOperations>
       </Interface>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d9b32e51-2fbf-41ec-918a-c242d1d31fdf"
+        LastKnownName="Mappers"
+        LastKnownLocation="Package_1445.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ddf51af8-487b-496c-aae8-eb3953b49c40"
+        LastKnownName="Generators"
+        LastKnownLocation="Package1_1445.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>
