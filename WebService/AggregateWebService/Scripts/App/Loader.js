@@ -26,7 +26,7 @@ $(document).ready(function () {
     });
 
     $('#loadingdata').hide();
-
+    $('#clicklinkswrapper').hide();
     $('#returnvalues').hide();
 
     //  Add click handlers to the jsMenu items
@@ -39,9 +39,11 @@ $(document).ready(function () {
         var urlAction = $('#UrlAction').attr("data-urlaction").valueOf();  // use a dummy to resolve the url at run-time
         var url = urlAction.replace("PLACEHOLDER", partialPage);
 
-        $('#links').html('');
-        $('#results').html('');
+        $('#clicklinkswrapper').hide();
         $('#returnvalues').hide();          //  hide in case there are any results showing
+        $('#links').html('');
+        $('#clickedlinks').html('');
+        $('#results').html('');
 
         $.ajax({
             url: url,
@@ -49,6 +51,7 @@ $(document).ready(function () {
             success: function (result) {
                 //  Load the partial page into the partPage div
                 $("#partPage").html(result);
+                $('#clicklinkswrapper').show();
                 //  Add click handlers
                 $('#apilinks ul li a').click(Demo.Api.click);
                 $('#submiturl').click(Demo.Api.createUrl);

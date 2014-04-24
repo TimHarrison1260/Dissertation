@@ -56,7 +56,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\DicesCoefficient.cs" />
+    <Compile Include="Algorithms\DiceCoefficient.cs" />
     <Compile Include="Algorithms\LCSubstr.cs" />
     <Compile Include="Algorithms\LevenshteinEditDistance.cs" />
     <Compile Include="Algorithms\MatchingAlgorithm.cs" />

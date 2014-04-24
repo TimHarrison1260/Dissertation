@@ -85,7 +85,7 @@ namespace IntegrationTests
             _snhDataSource = new SnhDataSource(snhHelper);
             _dataSourceResolver = new DataSourceResolver(_snhDataSource, _renUkDatasource);
             //  Matching algorithm
-            _coefficientAlgorithm = new DicesCoefficient();
+            _coefficientAlgorithm = new DiceCoefficient();
             _similarityAlgorithm = new LcSubstr();
             _editDistanceAlgorithm = new LevenshteinEditDistance();
             _preProcess = new PreProcessor();

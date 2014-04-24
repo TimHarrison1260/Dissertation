@@ -29,7 +29,7 @@ namespace IoC
             kernel.Bind<Core.Interfaces.Repositories.IDataTypeRepository>().To<Infrastructure.Repositories.DataTypeRepository>();
 
             //  Bind the Matching algorithms
-            kernel.Bind<Infrastructure.Interfaces.Algorithms.ICoefficientAlgorithm>().To<Infrastructure.Algorithms.DicesCoefficient>();
+            kernel.Bind<Infrastructure.Interfaces.Algorithms.ICoefficientAlgorithm>().To<Infrastructure.Algorithms.DiceCoefficient>();
             kernel.Bind<Infrastructure.Interfaces.Algorithms.IEditDistanceAlgorithm>().To<Infrastructure.Algorithms.LevenshteinEditDistance>();
             kernel.Bind<Infrastructure.Interfaces.Algorithms.IStringSimilarityAlgorithm>().To<Infrastructure.Algorithms.LcSubstr>();
             kernel.Bind<Infrastructure.Interfaces.Algorithms.IAlgorithmPreProcess>().To<Infrastructure.Algorithms.PreProcessor>();

@@ -36,6 +36,13 @@
       <SubType>Content</SubType>
       <DependentUpon>DataService.classdiagram</DependentUpon>
     </Content>
+    <Content Include="MatchingAlgorithm.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MatchingAlgorithm_MatchStrings.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MatchingAlgorithm.sequencediagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Package1_1141.uml">
       <SubType>Content</SubType>
     </Content>
@@ -76,6 +83,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1144.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1213.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1445.uml">

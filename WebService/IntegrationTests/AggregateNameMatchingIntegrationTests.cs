@@ -30,7 +30,7 @@ namespace IntegrationTests
         public void Initialise()
         {
             //  Create new instance of the algorithms and pre-processor
-            _coefficientAlgorithm = new DicesCoefficient();
+            _coefficientAlgorithm = new DiceCoefficient();
             _similarityAlgorithm = new LcSubstr();
             _editDistanceAlgorithm = new LevenshteinEditDistance();
             _preProcessor = new PreProcessor();

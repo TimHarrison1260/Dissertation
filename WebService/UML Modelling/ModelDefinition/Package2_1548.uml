@@ -1926,5 +1926,11 @@
         LastKnownName="Services"
         LastKnownLocation="Package_1817.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e56e1882-2813-4db9-a8cb-025934677170"
+        LastKnownName="Algorithms"
+        LastKnownLocation="Package_1213.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>

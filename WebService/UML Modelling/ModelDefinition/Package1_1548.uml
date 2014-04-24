@@ -21,7 +21,7 @@
         <referencesInternal>
           <reference
             Id="73d4f9ac-0be6-4206-a9fb-3acc7f249b1e"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -69,90 +69,16 @@
         </appliedStereotypesInternal>
         <suppliersInternal>
           <interfaceRealization
-            Id="9da313ac-6bda-4ec9-86c0-f2417e6e140d">
+            Id="be3c6f40-e4d7-44a0-84d5-dab2f211b22b">
             <interfaceMoniker
-              Id="16dff1a7-8806-44e7-973b-336777fba3da"
+              Id="6e4d0ae9-8a4c-4b54-9b87-da391a1031f0"
               LastKnownName="IMatchingAlgorithm"
-              LastKnownLocation="Package2_1548.uml" />
+              LastKnownLocation="Package_1213.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <targetEnds>
           <association
-            Id="dc2d7213-f947-4162-8383-d94bd3b09aba"
-            isDerived="false"
-            sourceEndRoleName=""
-            targetEndRoleName=""
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="a691a899-d429-485c-a4f8-c94676bcac43"
-              LastKnownName="DicesCoefficient"
-              LastKnownLocation="Package1_1548.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="9034fa03-8c33-4172-99e3-e201fa27c6cf"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="736d05f0-984f-462b-a3df-4e8cb6eaffb3"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-          <association
-            Id="1edad219-f0b1-4960-8b2f-54037e1126e6"
-            isDerived="false"
-            sourceEndRoleName=""
-            targetEndRoleName=""
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="17a6e8f7-dd1c-48eb-9870-4d0de90f2661"
-              LastKnownName="PreProcessor"
-              LastKnownLocation="Package1_1548.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="03cdd1d1-29d6-433e-921e-7d99ebe1b2e9"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="6647253f-dd58-4e8f-a9dc-4e18405ee636"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-          <association
-            Id="a942810f-8db9-4d10-9ea0-6cd6c702d539"
+            Id="b49b705a-09a8-46be-8256-6320f1381b9b"
             isDerived="false"
             sourceEndRoleName=""
             targetEndRoleName=""
@@ -165,7 +91,7 @@
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="612ac75a-ca73-45c7-bde3-25614c033aec"
+                  Id="d32e208f-f694-4f4c-b4c0-d6dbd79ca2bf"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -177,7 +103,7 @@
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="02962cde-aaa6-48c9-b09b-8314caf721cd"
+                  Id="ef36d3b1-aa06-44ee-bef0-17a13b752c8b"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -189,7 +115,7 @@
             </relationshipOwnedElementsInternal>
           </association>
           <association
-            Id="9efcd4b5-118a-4ed6-8273-fa3ffcf695a4"
+            Id="5c988a85-5ab3-4366-8fac-91386a473f99"
             isDerived="false"
             sourceEndRoleName=""
             targetEndRoleName=""
@@ -202,7 +128,7 @@
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="135e61ae-5a35-4ef5-b360-771aff8b5e8d"
+                  Id="10ccd7fb-fa6a-4c0c-875d-6a5fd1652c2f"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -214,7 +140,81 @@
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="7caae926-a5fc-4d2e-b973-7959293520bc"
+                  Id="2d8403cf-1dc5-424d-b4ed-e1465990a67b"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8884773e-3e95-48d9-9d95-4c5ae00fba1b"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6e518e34-7821-4946-9f83-126906401fee"
+              LastKnownName="DiceCoefficient"
+              LastKnownLocation="Package1_1548.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fb6a2a88-85ab-4d06-b647-251bea1727f7"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c7e10b10-c768-4b83-9275-4b669f202362"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d1c90af5-7f2b-4708-8212-b756dfee7c6a"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="17a6e8f7-dd1c-48eb-9870-4d0de90f2661"
+              LastKnownName="PreProcessor"
+              LastKnownLocation="Package1_1548.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ad61dcc4-58af-433d-83f6-54a3651e077a"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="87166ffe-ece7-4428-88e9-e860f39f622f"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -241,7 +241,7 @@
             <referencesInternal>
               <reference
                 Id="2451ff0c-34cd-42c7-b582-d38e1682cced"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_coefficientAlgorithm"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_coefficientAlgorithm"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -289,9 +289,9 @@
             </appliedStereotypesInternal>
             <type_NamedElement>
               <interfaceMoniker
-                Id="8870be45-8653-47db-befa-5d3bc786c6ee"
+                Id="4ab73c7c-3080-4620-915c-8a5fd21f36db"
                 LastKnownName="ICoefficientAlgorithm"
-                LastKnownLocation="Package2_1548.uml" />
+                LastKnownLocation="Package_1213.uml" />
             </type_NamedElement>
           </property>
           <property
@@ -308,7 +308,7 @@
             <referencesInternal>
               <reference
                 Id="6245d0a0-c986-431b-babf-a2efbde2941f"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_coefficientLimit"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_coefficientLimit"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -375,7 +375,7 @@
             <referencesInternal>
               <reference
                 Id="3fd9ac1c-cf21-422d-b76e-07d689b7e22c"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_editDistanceAlgorithm"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_editDistanceAlgorithm"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -423,9 +423,9 @@
             </appliedStereotypesInternal>
             <type_NamedElement>
               <interfaceMoniker
-                Id="823600e1-cc9e-4cd0-a00b-bbb849d72ee2"
+                Id="c6c1b52f-765f-4e01-b1a1-7bf013146c65"
                 LastKnownName="IEditDistanceAlgorithm"
-                LastKnownLocation="Package2_1548.uml" />
+                LastKnownLocation="Package_1213.uml" />
             </type_NamedElement>
           </property>
           <property
@@ -442,7 +442,7 @@
             <referencesInternal>
               <reference
                 Id="33c8a089-119d-4e96-aa92-61b6ca28a0c1"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_editDistanceLimit"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_editDistanceLimit"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -496,73 +496,6 @@
             </type_NamedElement>
           </property>
           <property
-            Id="478e849b-dd7d-468a-b660-daeccfbbcf25"
-            name="_percentageAlgorithm"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <referencesInternal>
-              <reference
-                Id="abb77562-3c63-48bf-979a-adf18ea9af64"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_percentageAlgorithm"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="a487ea7a-9101-4a36-b9c3-7d1f304c3117"
-                name="field"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="1687082d-3f47-4ae0-8cfb-ca55a16c3a9e">
-                    <propertyInstance
-                      Id="1b62413d-d503-4c81-a393-904245116835"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="6370f54d-08c2-4d59-8ceb-67d6f2c61592">
-                    <propertyInstance
-                      Id="812f7e00-57e5-474c-ba70-46f163eef920"
-                      name="IsConst"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="989a4802-1b7a-4acc-9309-68c502609b46">
-                    <propertyInstance
-                      Id="34dd43b9-635e-44b7-80b3-e4e31286e62f"
-                      name="IsNullable"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="8049b362-3767-4972-8060-4e5e63f07cb0">
-                    <propertyInstance
-                      Id="4735c0e6-39c0-4b90-b24e-58e5d412f6ee"
-                      name="IsVolatile"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="53a5d304-a441-44f8-b353-df1d24ea9af4">
-                    <propertyInstance
-                      Id="908b7c99-e608-4078-b660-de8e86e672fd"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <type_NamedElement>
-              <interfaceMoniker
-                Id="ba746766-2fbb-4649-af1b-72deb475bbc1"
-                LastKnownName="IPercentageMatchAlgorithm"
-                LastKnownLocation="Package2_1548.uml" />
-            </type_NamedElement>
-          </property>
-          <property
             Id="311eb0d2-e5b5-4ed0-8804-294798a0fab8"
             name="_percentageLimit"
             visibility="Private"
@@ -576,7 +509,7 @@
             <referencesInternal>
               <reference
                 Id="f4200afd-a80c-4e48-afd1-7d471833cf4d"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_percentageLimit"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_percentageLimit"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -643,7 +576,7 @@
             <referencesInternal>
               <reference
                 Id="3f37288e-a46e-4dc8-8591-cdcc22bdd365"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_preProcessor"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_preProcessor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -691,213 +624,80 @@
             </appliedStereotypesInternal>
             <type_NamedElement>
               <interfaceMoniker
-                Id="585a2847-ff78-4adc-9fed-f6cfd21d0ea8"
+                Id="a23da9d8-cc77-4f25-8f1d-644cfff94654"
                 LastKnownName="IAlgorithmPreProcess"
-                LastKnownLocation="Package2_1548.uml" />
+                LastKnownLocation="Package_1213.uml" />
             </type_NamedElement>
           </property>
-        </ownedAttributesInternal>
-        <ownedOperationsInternal>
-          <operation
-            Id="e603648f-2fb7-4ec0-98fd-8d6df678f631"
-            name="MatchingAlgorithm"
+          <property
+            Id="607d325d-e6d6-48e3-a796-d9d3b8e14e7b"
+            name="_similarityAlgorithm"
+            visibility="Private"
             isLeaf="false"
             isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
             <referencesInternal>
               <reference
-                Id="d9a9bc67-4222-4cc4-9293-b87eb03fccef"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIPercentageMatchAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIAlgorithmPreProcess)])"
+                Id="529bc756-cdeb-4537-bdf9-f18bccc36c22"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D_similarityAlgorithm"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="aa637ef0-d0dd-415e-bc8a-bd93bd479189"
-                name="method"
+                Id="9c191546-2a02-474e-90df-4bee736516e9"
+                name="field"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="a461623b-8194-4c40-aac6-5c554fbed8dc">
+                    Id="19bb9f65-d3d3-4c46-810e-43c09f3c56a0">
                     <propertyInstance
-                      Id="581be73c-d549-41cb-a6f9-88125489fed3"
+                      Id="d1de2659-5d53-47ac-a8b5-f9ee22f4df91"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="20cbb29a-1d57-4306-8c6e-7c2f568bf55d">
+                    Id="1236d235-1896-44f9-bac5-472fdf90ddc7">
                     <propertyInstance
-                      Id="efebbdb7-928f-4899-95e2-a89acb6b9402"
-                      name="IsPartial"
+                      Id="6371facc-2332-439d-b4d8-f921a2a931a9"
+                      name="IsConst"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="00f216de-b000-44a9-8a39-81569ea31d31">
+                    Id="d299c5dd-c506-49c5-b8d5-7c38480d014d">
                     <propertyInstance
-                      Id="5c192d84-4e8f-450a-ae0d-228804ac43fd"
-                      name="IsUnsafe"
+                      Id="3c58c2ee-67c4-402e-88ce-6b386bd98aa3"
+                      name="IsNullable"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="f1d058b9-8edf-49de-bc36-685b8d909168">
+                    Id="7a6056ea-79fd-42da-86c5-fa95e70635b2">
                     <propertyInstance
-                      Id="60a5fc9c-02d9-41f7-b9ac-c59c2c98f710"
-                      name="Inheritance"
-                      value="none" />
+                      Id="cef8979e-b1f6-4928-b2cb-38b11b854083"
+                      name="IsVolatile"
+                      value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="86aba518-82da-4c16-b7da-d677c31f6ffd">
+                    Id="8380cae3-375d-4084-ac22-52a5928961d2">
                     <propertyInstance
-                      Id="d9eb8ffe-1846-4417-9acd-6ced8fbb280b"
+                      Id="2fdf842b-97dc-4b00-8320-7aaeb051fdc9"
                       name="PackageVisibility"
                       value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="589d7d5d-0227-4647-ba12-7bad7ff743e1">
-                    <propertyInstance
-                      Id="655b81c7-74b1-4726-ba49-432c89f7f461"
-                      name="params"
-                      value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="2fe0da49-d9f8-4269-a465-74582e50bad5"
-                  name="coefficientAlgorithm"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="affa33d4-d1b1-4acd-8029-df2e7d74cf92"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIPercentageMatchAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DcoefficientAlgorithm"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <interfaceMoniker
-                      Id="8870be45-8653-47db-befa-5d3bc786c6ee"
-                      LastKnownName="ICoefficientAlgorithm"
-                      LastKnownLocation="Package2_1548.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="407b1c0d-a77d-4b77-976c-cab95d34fc04"
-                  name="coefficientLimit"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="fe8274ca-8771-41cd-b8b9-dd3e0cf4b580"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIPercentageMatchAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DcoefficientLimit"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f2cf06c4-1c11-4ec6-8691-4f94a37295d1"
-                      LastKnownName="Double"
-                      LastKnownLocation="Package2_1429.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="2ca9c01e-e57c-490f-81a5-08b87868f19b"
-                  name="percentageMatchAlgorithm"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="c5b8a9c5-7e13-413c-9537-dde7eda07526"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIPercentageMatchAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DpercentageMatchAlgorithm"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <interfaceMoniker
-                      Id="ba746766-2fbb-4649-af1b-72deb475bbc1"
-                      LastKnownName="IPercentageMatchAlgorithm"
-                      LastKnownLocation="Package2_1548.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="f7f24aef-2779-42fa-8456-6ec7c728fd2a"
-                  name="percentageLimit"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="7cac1007-07a5-40bf-b7d7-75d8334e9cd3"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIPercentageMatchAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DpercentageLimit"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f2cf06c4-1c11-4ec6-8691-4f94a37295d1"
-                      LastKnownName="Double"
-                      LastKnownLocation="Package2_1429.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="0cfc7f65-3d9a-4784-94cc-1f1c3c06c615"
-                  name="editDistanceAlgorithm"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="5a58543a-4d41-432a-a271-0aeb779964a7"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIPercentageMatchAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DeditDistanceAlgorithm"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <interfaceMoniker
-                      Id="823600e1-cc9e-4cd0-a00b-bbb849d72ee2"
-                      LastKnownName="IEditDistanceAlgorithm"
-                      LastKnownLocation="Package2_1548.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="6ef065f1-b767-4367-9bec-ac745a37adcb"
-                  name="editDistanceLimit"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="18709259-f11e-4943-8b20-024dc96ab6ba"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIPercentageMatchAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DeditDistanceLimit"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <primitiveTypeMoniker
-                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
-                      LastKnownName="Integer"
-                      LastKnownLocation="UML Modelling.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="37469504-1bce-4d0a-b263-eb3b100ce220"
-                  name="preProcessor"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="bb4b28b1-005c-4fa7-b0bb-1dd68611df0f"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIPercentageMatchAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DpreProcessor"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <interfaceMoniker
-                      Id="585a2847-ff78-4adc-9fed-f6cfd21d0ea8"
-                      LastKnownName="IAlgorithmPreProcess"
-                      LastKnownLocation="Package2_1548.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="2eccf625-08fa-433c-814f-ff5beb14e793"
+                LastKnownName="IStringSimilarityAlgorithm"
+                LastKnownLocation="Package_1213.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
           <operation
             Id="dfa17afb-b94d-46f4-8890-1e0161a1f7c6"
             name="MatchStrings"
@@ -910,7 +710,7 @@
             <referencesInternal>
               <reference
                 Id="621f2141-9e96-4416-a32d-61c8eba8c917"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatchStrings OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatchStrings OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -984,7 +784,7 @@
                   <referencesInternal>
                     <reference
                       Id="95eefc27-a5e4-44d3-946a-efa471608771"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatchStrings OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dsource"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatchStrings OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dsource"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1003,7 +803,7 @@
                   <referencesInternal>
                     <reference
                       Id="b3d63b19-63d0-493d-974c-a305f01c67f6"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatchStrings OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtarget"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatchStrings OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtarget"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1017,8 +817,8 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="489ab98e-1a26-4f4b-be6e-bb21ffc96848"
-            name="Match"
+            Id="978a3ead-9fa2-4cb6-bd14-deb641e091e3"
+            name="MatchingAlgorithm"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -1026,54 +826,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="824f51d0-9e1b-4324-9b1d-b35aca993d51"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FCore%2Fbin%2FDebug%2FCore.dll&quot; Namespace%3DCore.Model Type%3DAggregate)]))])"
+                Id="0bdb0882-4c39-4231-afa2-728d0689f1c0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIStringSimilarityAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIAlgorithmPreProcess)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="396bc2f9-2bfe-49e7-9fa0-abf580e4c182"
+                Id="f89b6af2-e6c4-4556-9701-f3084658f376"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="c29acc18-cc09-42c7-baa1-fe987009bdf8">
+                    Id="341489d9-3533-4a91-befe-5aca46a645d7">
                     <propertyInstance
-                      Id="0f7df3d1-4f6b-47f5-bc40-5b68f03348d3"
+                      Id="0acea952-e5e9-4694-aafd-02bcb492ad64"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="72b3fba8-da99-422e-9019-4e1c427c350a">
+                    Id="dc947700-fb92-4ac9-8a4b-2d592616a5f6">
                     <propertyInstance
-                      Id="79252723-efcd-47ed-9572-c09c4b0e565b"
+                      Id="5e43062f-17d3-45a3-b62a-749b98d25218"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="eb892259-0738-4c67-91ca-522e6d8b15e8">
+                    Id="98c5da7e-e3c5-46db-a089-ebb33150abd4">
                     <propertyInstance
-                      Id="f689e520-e2fe-453e-92e2-ae53dc8829bb"
+                      Id="2404755b-76d4-4849-8074-54a2a0a5c3fe"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="fa4c84de-ff66-4b12-8be4-ab51e5f10d2f">
+                    Id="3ee0fe55-f7e9-4c37-86bb-aedbe0efeb79">
                     <propertyInstance
-                      Id="5d67ac41-cc8a-4755-91e4-8f4503718db8"
+                      Id="b8e31228-7d34-4d0c-a74d-9b09cec426a8"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="5d92dec7-619f-448a-a4bf-0d6da83a0bec">
+                    Id="b346810e-9cff-4bf3-93af-61b63b8d6466">
                     <propertyInstance
-                      Id="83275850-8ace-47aa-9339-90eedcc54634"
+                      Id="989aa4e3-7d2a-4adf-9db6-5c137479d8e3"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="5e7f1768-35ac-4118-ad6c-89e3758edf6c">
+                    Id="d24dd412-1560-4e9f-a3c2-a65702f13fc8">
                     <propertyInstance
-                      Id="7c6a7d29-72bb-4842-b296-3a578d819118"
+                      Id="84ab03d2-9466-4d39-a8e4-fbf42872a944"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -1083,7 +883,207 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="01e7f253-669f-4641-8326-6162610f9179"
+                  Id="712a83be-00bd-4953-9622-9577c0c7e7a3"
+                  name="coefficientAlgorithm"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9821dd79-d953-458a-9d26-73b818fb46fd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIStringSimilarityAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DcoefficientAlgorithm"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="4ab73c7c-3080-4620-915c-8a5fd21f36db"
+                      LastKnownName="ICoefficientAlgorithm"
+                      LastKnownLocation="Package_1213.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="12bf573e-515f-4b44-b03c-d610080a866c"
+                  name="coefficientLimit"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="135e0ab9-647f-4308-b11e-9124f18dfea3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIStringSimilarityAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DcoefficientLimit"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f2cf06c4-1c11-4ec6-8691-4f94a37295d1"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_1429.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9d17a225-c94c-441e-bf2a-d9bd3dc1d4f7"
+                  name="similarityMatchAlgorithm"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="37320d22-fc33-4dfb-b112-66af86ba3134"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIStringSimilarityAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DsimilarityMatchAlgorithm"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="2eccf625-08fa-433c-814f-ff5beb14e793"
+                      LastKnownName="IStringSimilarityAlgorithm"
+                      LastKnownLocation="Package_1213.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7b1501d3-e28c-46c2-bf97-babb7f0d14b3"
+                  name="percentageLimit"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5ed00542-0b4f-4478-b28a-8dcb3ee7adab"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIStringSimilarityAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DpercentageLimit"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f2cf06c4-1c11-4ec6-8691-4f94a37295d1"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_1429.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bf20d5fa-595a-4fbe-891c-b6dbed0a36d4"
+                  name="editDistanceAlgorithm"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a45e8513-7dab-4b49-a976-377b686ce1e5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIStringSimilarityAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DeditDistanceAlgorithm"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="c6c1b52f-765f-4e01-b1a1-7bf013146c65"
+                      LastKnownName="IEditDistanceAlgorithm"
+                      LastKnownLocation="Package_1213.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3ecec64e-5de1-4185-9c6e-5845c2d0c28a"
+                  name="editDistanceLimit"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5c9c0bce-5b67-4ede-846a-580acd2918f9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIStringSimilarityAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DeditDistanceLimit"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UML Modelling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="67bee60e-bcc7-4f8b-9713-7cfa4828c96b"
+                  name="preProcessor"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e2649fca-d5dd-4a88-89a2-34ede6f034bd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DICoefficientAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIStringSimilarityAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIEditDistanceAlgorithm)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Interfaces.Algorithms Type%3DIAlgorithmPreProcess)]) ParameterIdentifier%3DpreProcessor"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="a23da9d8-cc77-4f25-8f1d-644cfff94654"
+                      LastKnownName="IAlgorithmPreProcess"
+                      LastKnownLocation="Package_1213.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b4a842d3-ce6f-4f71-9c97-dd9339b56341"
+            name="Match"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="de93c082-6f4a-452a-9d20-781a9998c872"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FCore%2Fbin%2FDebug%2FCore.dll&quot; Namespace%3DCore.Model Type%3DAggregate)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2668b4de-5f3c-40fd-a7e0-5b79a7b34f30"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb6ae552-773c-47ab-a482-db4d31d9fdb6">
+                    <propertyInstance
+                      Id="8547b531-7b9b-466a-8faa-fc0ffb0536cf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c1a4731-c968-41be-9995-4a83303a2e17">
+                    <propertyInstance
+                      Id="4a7fe089-4e31-4fe6-b5db-efe0d85886b1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98137448-65f1-4f31-a98c-3d9b8048e2c4">
+                    <propertyInstance
+                      Id="154ff148-aa9b-4648-8f65-e72247768973"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bba222b-c343-4ca6-9ed7-c949b065deae">
+                    <propertyInstance
+                      Id="d02f02be-4edd-46e2-a182-43e3634595a6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28cb1613-cb6b-408a-bc62-5a6b280b6af1">
+                    <propertyInstance
+                      Id="4b3d3fc3-6627-407b-9c11-f943a42b1e98"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1818e632-5a56-4b51-b2b9-7e2fe74665f7">
+                    <propertyInstance
+                      Id="a2f2d209-77af-469b-ad61-3ceff6a3febd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b16aa041-8f9a-46c5-9078-3751b5702a42"
                   direction="Return">
                   <type_NamedElement>
                     <primitiveTypeMoniker
@@ -1095,13 +1095,13 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="1c45d84d-ea11-4727-9c74-9b078069e492"
+                  Id="a3f897d2-4704-4d9f-ac9c-fc56dabdfb97"
                   name="source"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="fe94be72-4745-4ef3-8e32-de6bdd6e6477"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FCore%2Fbin%2FDebug%2FCore.dll&quot; Namespace%3DCore.Model Type%3DAggregate)]))]) ParameterIdentifier%3Dsource"
+                      Id="fd835bb8-2c51-43fc-ad32-223a0ab74235"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FCore%2Fbin%2FDebug%2FCore.dll&quot; Namespace%3DCore.Model Type%3DAggregate)]))]) ParameterIdentifier%3Dsource"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1114,13 +1114,13 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="f9d09946-3ae4-477c-8202-efea3073c163"
+                  Id="72ef3a56-0f29-48b2-afd8-d83f3a39d28a"
                   name="aggregates"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="d48a96c0-6b1a-4a7e-b979-2be07c985081"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FCore%2Fbin%2FDebug%2FCore.dll&quot; Namespace%3DCore.Model Type%3DAggregate)]))]) ParameterIdentifier%3Daggregates"
+                      Id="2c7b9bce-2717-40e8-b71d-e056e02e01bc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DMatchingAlgorithm Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FCore%2Fbin%2FDebug%2FCore.dll&quot; Namespace%3DCore.Model Type%3DAggregate)]))]) ParameterIdentifier%3Daggregates"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1145,7 +1145,7 @@
         <referencesInternal>
           <reference
             Id="52b562f7-cbd1-4ea1-81c0-cf7236547c23"
-            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessTypesEnum"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessTypesEnum"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -1211,7 +1211,7 @@
         <referencesInternal>
           <reference
             Id="62360cc4-8830-464b-9588-651a8aef6195"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -1259,11 +1259,11 @@
         </appliedStereotypesInternal>
         <suppliersInternal>
           <interfaceRealization
-            Id="86be2b5b-7d6b-4f18-8110-13fb3dd95cc7">
+            Id="bca5f35f-738c-4712-ac13-112265b35ebc">
             <interfaceMoniker
-              Id="823600e1-cc9e-4cd0-a00b-bbb849d72ee2"
+              Id="c6c1b52f-765f-4e01-b1a1-7bf013146c65"
               LastKnownName="IEditDistanceAlgorithm"
-              LastKnownLocation="Package2_1548.uml" />
+              LastKnownLocation="Package_1213.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <ownedOperationsInternal>
@@ -1279,7 +1279,7 @@
             <referencesInternal>
               <reference
                 Id="ac01f93d-7ee8-48ca-a317-7fcf17796be5"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DDamerauLevenshteinDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DDamerauLevenshteinDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1353,7 +1353,7 @@
                   <referencesInternal>
                     <reference
                       Id="4365c09c-107d-44ea-8e52-b75f87039882"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DDamerauLevenshteinDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dsource"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DDamerauLevenshteinDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dsource"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1372,7 +1372,7 @@
                   <referencesInternal>
                     <reference
                       Id="56946109-05b6-42de-b67d-152c478f6d2e"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DDamerauLevenshteinDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dtarget"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DDamerauLevenshteinDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dtarget"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1391,7 +1391,7 @@
                   <referencesInternal>
                     <reference
                       Id="94acb915-451a-4500-a964-72d135178642"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DDamerauLevenshteinDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dthreshold"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DDamerauLevenshteinDistance OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dthreshold"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1415,7 +1415,7 @@
             <referencesInternal>
               <reference
                 Id="8a69fed3-0048-44d3-b690-9084c31db193"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1489,7 +1489,7 @@
                   <referencesInternal>
                     <reference
                       Id="0a2e4dac-482c-49ba-82fd-f648224a54c4"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Ds1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Ds1"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1508,7 +1508,7 @@
                   <referencesInternal>
                     <reference
                       Id="745929ee-d732-4da4-8590-cc744235f067"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Ds2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Ds2"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1522,7 +1522,7 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="fc9e946c-448d-44bb-9a9a-2b793f00a083"
+            Id="b3fcc7e3-888d-4539-a414-5c682cc058c9"
             name="Swap‎&lt;T‎&gt;"
             visibility="Private"
             isLeaf="false"
@@ -1532,54 +1532,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="58550805-093d-498b-954d-2be1870a35ed"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DSwap GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0 ParamKind%3DRef)%2C(ParameterIdentifier%3D0 ParamKind%3DRef)])"
+                Id="2ecd24fe-06a9-4787-8c5e-3eb61da67c16"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DSwap GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0 ParamKind%3DRef)%2C(ParameterIdentifier%3D0 ParamKind%3DRef)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="7d56200a-60d3-4878-8db8-5e5f1d287078"
+                Id="6c68a2f4-da8d-4945-8e19-42f67c034908"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="10160736-1532-400d-8beb-34594043e85e">
+                    Id="152f3e0b-5556-4ee1-8805-610592654e41">
                     <propertyInstance
-                      Id="3e170a54-b761-4919-a133-cc0066d26ad2"
+                      Id="968a3763-1a56-45b0-a0e5-f452474edd05"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="177a1fb0-97f7-4443-99bf-8a55f2c9e6e1">
+                    Id="2ac7e49a-d918-489d-a08d-f8d0f4fb0aeb">
                     <propertyInstance
-                      Id="073443e1-8baa-4f86-8f15-240a9fe6b4ae"
+                      Id="6bde2fc0-ee96-46b0-a6b5-285efe1e5b96"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="c20decc7-a57e-4570-9770-f608df370b55">
+                    Id="e046c3b5-01e8-4450-b7eb-d9e371757769">
                     <propertyInstance
-                      Id="ea96a35a-ae73-4cf7-9300-28978cb74a12"
+                      Id="34d5fde7-496d-4b73-8a25-182a07ab770d"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d8239a89-28ba-45dd-ad02-662a9b07dda1">
+                    Id="1d2eca15-8920-4ed5-bdc5-016a0d859552">
                     <propertyInstance
-                      Id="00a3c61f-bdca-489e-b7f6-028fc46ab96b"
+                      Id="3268a8b7-30d0-43e9-9463-f95515805223"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d6918a76-8e64-4ac1-aa6d-ee2dd12f2143">
+                    Id="c691140d-e2cb-437b-94a4-7efa50ce5ab9">
                     <propertyInstance
-                      Id="f0be567a-3816-4a53-94db-8f75a5815074"
+                      Id="c883b02c-07ff-43c1-a398-1a38d48795f0"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="302f40ed-ec68-421c-833e-00656d7864fe">
+                    Id="da2c6277-24fc-4a6b-85c4-9cb673da0c73">
                     <propertyInstance
-                      Id="fddd7e0c-a39e-439d-81c3-0782b00e3f4a"
+                      Id="7024fcc5-8aab-4200-b126-0ae61f48d262"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -1589,46 +1589,46 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="aad9a374-cf07-46a7-badf-24fbac0281eb"
+                  Id="34d4c4f3-fad7-4266-94f3-2e98b931bfe9"
                   name="arg1"
                   direction="InOut">
                   <referencesInternal>
                     <reference
-                      Id="f059a911-2999-4557-b641-b0bfb8d7581f"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DSwap GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0 ParamKind%3DRef)%2C(ParameterIdentifier%3D0 ParamKind%3DRef)]) ParameterIdentifier%3Darg1"
+                      Id="4543c780-325b-4412-8378-a93ba4814618"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DSwap GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0 ParamKind%3DRef)%2C(ParameterIdentifier%3D0 ParamKind%3DRef)]) ParameterIdentifier%3Darg1"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
-                    <classMoniker
-                      Id="b9c5ede7-a330-4101-903f-307546fa713b"
+                    <undefinedTypeMoniker
+                      Id="282cb584-feec-43e4-84a6-c8f217030b55"
                       LastKnownName="T"
-                      LastKnownLocation="Package4_1429.uml" />
+                      LastKnownLocation="Package1_1548.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="dd83fb77-aa4a-4293-821c-2e4f0afed154"
+                  Id="0bd686b5-0631-48df-8f8d-7bbc12dd28a7"
                   name="arg2"
                   direction="InOut">
                   <referencesInternal>
                     <reference
-                      Id="9d1bb24e-2c4e-441e-b8b3-093c0f04d2f4"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DSwap GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0 ParamKind%3DRef)%2C(ParameterIdentifier%3D0 ParamKind%3DRef)]) ParameterIdentifier%3Darg2"
+                      Id="93716c1b-5443-4d8e-8cb1-f4b0133a0b30"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DSwap GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0 ParamKind%3DRef)%2C(ParameterIdentifier%3D0 ParamKind%3DRef)]) ParameterIdentifier%3Darg2"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
-                    <classMoniker
-                      Id="b9c5ede7-a330-4101-903f-307546fa713b"
+                    <undefinedTypeMoniker
+                      Id="282cb584-feec-43e4-84a6-c8f217030b55"
                       LastKnownName="T"
-                      LastKnownLocation="Package4_1429.uml" />
+                      LastKnownLocation="Package1_1548.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
           <operation
-            Id="7e332603-18c1-48b6-922c-db2b4965132f"
+            Id="f1aa0d90-7450-48da-9b26-1360700a1228"
             name="LevenshteinEditDistance"
             isLeaf="false"
             isStatic="false"
@@ -1637,54 +1637,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="b8c36864-d696-43c0-9f5a-b9b7a7d7a08f"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D.ctor"
+                Id="a794a233-9c81-4a11-8093-babe3a46db51"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="4a890576-0a07-4e15-9de2-9e506356f7f3"
+                Id="129ba305-f4f4-4878-aa8b-a86400cbd0ef"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="b9b39ed7-84d6-47ab-b2b2-793613ca2f48">
+                    Id="9afe07a7-e2cc-4ad3-8c5a-a0f41999178f">
                     <propertyInstance
-                      Id="91700b75-0643-46ce-94b3-aa7498cfc52a"
+                      Id="203c82c1-f484-4a10-b805-9ed3a16cea66"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="fa6e5db1-32f1-44db-98d2-170b021ff652">
+                    Id="2d5a22b4-e981-43b3-868e-1d4b9a1a2c03">
                     <propertyInstance
-                      Id="c0754a5a-b13f-433e-acf4-3bc1107a2a73"
+                      Id="e42d2f53-9f4c-48b1-865e-9a7a498215c9"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="3d6398d5-742f-42f6-a7c7-cda208fb750a">
+                    Id="80c6fbb4-db17-4667-8268-616b60577fba">
                     <propertyInstance
-                      Id="505a9ab2-96ef-4b6a-b757-14fc55085fbf"
+                      Id="e2d6e9eb-18a6-4b91-925c-806785c7e4e9"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="fb67f6ed-f38c-4b09-a001-4e774df816c0">
+                    Id="2252800b-e28d-4006-bcfe-2364493e5177">
                     <propertyInstance
-                      Id="78029d43-aff2-4fd9-bd3f-96b8787e24be"
+                      Id="7bab9757-88d2-4ba5-b03b-7eb8cfe210f8"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="dd2c8499-5655-4bae-a880-d5544dbe528b">
+                    Id="ca20e9e6-eea9-4bf0-b8c3-1363d7a1c603">
                     <propertyInstance
-                      Id="2e8dafaf-6e9e-4aef-83b9-5993182b32f7"
+                      Id="01e05f1c-956c-4513-af5d-5329998bce88"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="7977bfcc-2ef0-43c0-a142-337327a3546c">
+                    Id="ca55d711-e6b6-4848-9d82-44ac91669f71">
                     <propertyInstance
-                      Id="98b27624-fcc7-4519-878a-885c4ecf4161"
+                      Id="b7ff7ff0-a2ac-4544-85d6-cd9ba6fe2225"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -1705,7 +1705,7 @@
         <referencesInternal>
           <reference
             Id="48855eee-b91d-4f2b-a06f-3bf905037aa0"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -1753,52 +1753,13 @@
         </appliedStereotypesInternal>
         <suppliersInternal>
           <interfaceRealization
-            Id="c7a66922-5295-41ed-804c-bdb2df593c2e">
+            Id="6b021bab-6823-4308-8dfb-abc6a96a3a4f">
             <interfaceMoniker
-              Id="585a2847-ff78-4adc-9fed-f6cfd21d0ea8"
+              Id="a23da9d8-cc77-4f25-8f1d-644cfff94654"
               LastKnownName="IAlgorithmPreProcess"
-              LastKnownLocation="Package2_1548.uml" />
+              LastKnownLocation="Package_1213.uml" />
           </interfaceRealization>
         </suppliersInternal>
-        <targetEnds>
-          <association
-            Id="abf9e177-bc02-4c86-b7a4-5df874640536"
-            isDerived="false"
-            sourceEndRoleName=""
-            targetEndRoleName=""
-            isLeaf="false"
-            isAbstract="false">
-            <enumerationMoniker
-              Id="2160bddc-79e1-432a-a15e-1086fa33120e"
-              LastKnownName="PreProcessTypesEnum"
-              LastKnownLocation="Package1_1548.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="4084ab57-a340-4edf-9c3c-4ac28eb1ca1b"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="78d02a3b-4039-4163-991c-022edfa2aede"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="31bc715c-493e-404b-9980-1b758b490f30"
@@ -1814,7 +1775,7 @@
             <referencesInternal>
               <reference
                 Id="355edde4-4cdd-4fe7-9667-69ba6960c4d0"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D_reservedWords"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D_reservedWords"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1880,7 +1841,7 @@
             <referencesInternal>
               <reference
                 Id="d88a0509-29da-4eb1-80b6-b553a01b35eb"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DApplyPreProcess OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessTypesEnum)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DApplyPreProcess OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessTypesEnum)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1954,7 +1915,7 @@
                   <referencesInternal>
                     <reference
                       Id="09d5ceed-9553-4e78-b820-b5121ff58edb"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DApplyPreProcess OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessTypesEnum)]) ParameterIdentifier%3Dinput"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DApplyPreProcess OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessTypesEnum)]) ParameterIdentifier%3Dinput"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1973,7 +1934,7 @@
                   <referencesInternal>
                     <reference
                       Id="c7144066-4d24-4dba-9d66-d295298dda60"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DApplyPreProcess OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessTypesEnum)]) ParameterIdentifier%3DpreProcessType"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DApplyPreProcess OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessTypesEnum)]) ParameterIdentifier%3DpreProcessType"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1998,7 +1959,7 @@
             <referencesInternal>
               <reference
                 Id="f516fe8a-3991-4563-9847-2c766623f21b"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DSanitise OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DSanitise OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -2072,7 +2033,7 @@
                   <referencesInternal>
                     <reference
                       Id="4911044f-0486-4ea4-bce2-f8e96341d4a7"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DSanitise OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Dinput"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DSanitise OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Dinput"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2091,7 +2052,7 @@
                   <referencesInternal>
                     <reference
                       Id="1aa605b8-0157-4e0b-89f1-aa30d0f131da"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DSanitise OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DremoveSpecialCharacters"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D(Name%3DSanitise OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DremoveSpecialCharacters"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2105,7 +2066,7 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="7eb58c29-4a39-4c6e-9b52-37050e70bf3f"
+            Id="b4612392-8f12-4930-8c64-7ad4378e0e28"
             name="PreProcessor"
             isLeaf="false"
             isStatic="false"
@@ -2114,54 +2075,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="4f96b7ab-d5e8-4533-b8ba-fbdeb76aa983"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FDocuments%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D.ctor"
+                Id="a5864457-549f-4fe4-bcee-f38a2513f19a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DPreProcessor Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="586816e3-4256-4df3-ad9f-30bbc8884ecc"
+                Id="82b92ea4-5c31-4dd2-b19e-6bffde9cadf9"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d81b3d7c-34fe-449f-a7e8-1cb60b13a478">
+                    Id="9650174c-3eaa-4fda-b668-e1dd66bce79a">
                     <propertyInstance
-                      Id="018f4481-c4f3-474a-a248-1791d97fc053"
+                      Id="d212875b-a064-4792-9b3f-b433e4f69dd9"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="bf7a709e-a19c-47d4-b4fb-e8a77865d7be">
+                    Id="06b5ae7a-6230-42c7-91a3-6d466b3601d9">
                     <propertyInstance
-                      Id="54dc60cc-a957-42cc-96e9-08efe4f86ba6"
+                      Id="d4ea81e4-dbf5-42e7-a90a-7e68c5a2d62f"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="a7f7f018-1d4b-4fc6-bb23-ab2de13b6105">
+                    Id="85190d86-2e67-4bfc-a123-be8dc55c4338">
                     <propertyInstance
-                      Id="b5948b4b-9fe1-4175-9c2f-d7b3598f5005"
+                      Id="5ef72cc2-578c-40a4-8323-b44e3c5ef72e"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="7add37d3-4f57-48ed-9268-47fa9fbe56af">
+                    Id="8f55165b-723d-44ed-8403-5f7afd6d6e65">
                     <propertyInstance
-                      Id="8d67d6b4-228b-4223-b282-c8b8cee7c0f1"
+                      Id="2e7bce21-21fd-4012-a10e-1c6be03d2d44"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="4a925fa7-311b-4fc1-8d23-1aea4d43f27c">
+                    Id="4a8d8a74-1d43-4d9b-9c16-bb06e8bc84f8">
                     <propertyInstance
-                      Id="df13a73e-02e5-478a-95f6-ea4728d2a7ed"
+                      Id="ead108b2-74c8-4735-9162-1ab7b81d60af"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="38e3b38b-3bb2-4575-8cdb-ec3d58794746">
+                    Id="24c7d0fe-3324-403d-8e0d-0e9eae038b9a">
                     <propertyInstance
-                      Id="3c1646f4-08ef-4546-af41-9d90d9d35958"
+                      Id="086b0f71-000f-4c7e-8b5b-900d6c4c81c5"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -2748,7 +2709,7 @@
         <referencesInternal>
           <reference
             Id="0c8c728b-5b9e-4dad-803c-78070f0b675f"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -2796,11 +2757,11 @@
         </appliedStereotypesInternal>
         <suppliersInternal>
           <interfaceRealization
-            Id="c9a56c1f-3570-4430-9e84-f5c859898e39">
+            Id="1257a655-b87e-4ee0-96aa-71111032a271">
             <interfaceMoniker
-              Id="eae8a39d-9a4a-4acb-96b9-3479f7dedb9e"
+              Id="2eccf625-08fa-433c-814f-ff5beb14e793"
               LastKnownName="IStringSimilarityAlgorithm"
-              LastKnownLocation="Package2_1548.uml" />
+              LastKnownLocation="Package_1213.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <ownedOperationsInternal>
@@ -2816,7 +2777,7 @@
             <referencesInternal>
               <reference
                 Id="100f2f69-e077-4b19-90c3-d1d5b613ed53"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DLongestCommonSubstring OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DLongestCommonSubstring OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -2903,7 +2864,7 @@
                   <referencesInternal>
                     <reference
                       Id="bc6e19c6-37bd-4cad-99df-40943cfbad02"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DLongestCommonSubstring OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DS"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DLongestCommonSubstring OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DS"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2922,7 +2883,7 @@
                   <referencesInternal>
                     <reference
                       Id="a17645fa-246a-4c3c-8862-9df5bdcffe58"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DLongestCommonSubstring OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DT"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DLongestCommonSubstring OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DT"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2946,7 +2907,7 @@
             <referencesInternal>
               <reference
                 Id="408674ee-11ec-4e21-b01d-a23d4577ec9d"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3020,7 +2981,7 @@
                   <referencesInternal>
                     <reference
                       Id="aba2021e-8f00-4fbb-ad15-2bad12f6ca3e"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Ds1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Ds1"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3039,7 +3000,7 @@
                   <referencesInternal>
                     <reference
                       Id="49edde58-cb20-4926-9451-7a5e7cb98c4b"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Ds2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Ds2"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3053,7 +3014,7 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="5d1a228b-006e-43f2-90f9-2465fef97a54"
+            Id="925c533a-e73c-4a98-96b3-afa0bacdab5c"
             name="LcSubstr"
             isLeaf="false"
             isStatic="false"
@@ -3062,54 +3023,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="9fa558a4-10b1-46f4-8d8e-f34843f23aad"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FDataAccess%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D.ctor"
+                Id="5bcdf585-4e75-4800-b0ca-001164f1ef25"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLcSubstr Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="109a0d65-a0d1-4a68-8469-cfc2a05cd708"
+                Id="be29dd7d-0f21-468e-bb73-0d1ec29edcb2"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="246578db-867c-4eb0-8451-3057903cdd13">
+                    Id="94d2ab4e-fb81-4eb5-a8e2-95f9cfa87afd">
                     <propertyInstance
-                      Id="646af1eb-a08e-4e55-b655-8cbcd826630e"
+                      Id="3122a0c6-1fa6-486e-a76d-354e9eb43e93"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="67ade9c1-c3bd-450a-b84e-f2910df9f1bf">
+                    Id="10df0c20-8310-48d8-8b14-68b25b6f6b41">
                     <propertyInstance
-                      Id="412c762e-aaa8-4c35-9200-2e513ae4e101"
+                      Id="913a7abb-1057-48d2-9eab-e5c98ec4e8c0"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="2b58dff1-241c-4d0f-96cc-3a3adc663978">
+                    Id="3caf5ce4-bf77-4cf2-bed2-7a9d094b372c">
                     <propertyInstance
-                      Id="1c2dfb50-5543-4896-904e-7b531a4ae04a"
+                      Id="34c7db80-7b3c-4489-b050-e1df5213a8c8"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="b3b73649-c37b-46e0-a3bb-953458bac254">
+                    Id="1ffc6252-c859-4d69-bb14-a85276cc1b60">
                     <propertyInstance
-                      Id="c2fca05c-5a89-479c-8df1-cdcb141c2001"
+                      Id="8246e4be-8f0a-47c0-bb93-bee3073b2a60"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="6480ec5f-dbaa-4520-936f-160ea93166ce">
+                    Id="2e5b38c5-4e80-44df-a24b-874d25ba7114">
                     <propertyInstance
-                      Id="9729a481-eb20-4738-949e-74da2e45a859"
+                      Id="0a8033d3-b15b-46ca-9a37-c1a68517fb51"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="e18325fa-60da-4671-8cd6-fc1dfe4e9f66">
+                    Id="5a068a2c-8322-43ba-a481-94e1df2e06a9">
                     <propertyInstance
-                      Id="d66ac41e-a7c5-4ce6-b4c0-8996a89f66ac"
+                      Id="59077cb4-0b03-454d-b29d-29fd125a5383"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -3119,6 +3080,585 @@
           </operation>
         </ownedOperationsInternal>
       </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6e518e34-7821-4946-9f83-126906401fee"
+        name="DiceCoefficient"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c03ff2f0-957a-429c-8bfe-cd50dc1fcaaa"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7c7bb12c-4a7e-4d39-ac68-e60d3f76561c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="659f0c29-95ea-440d-af52-15750847025a">
+                <propertyInstance
+                  Id="fbb1650f-38f4-48a2-a999-1cd284585f21"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0d9c2fbb-5367-40de-8095-ed8b1f49325a">
+                <propertyInstance
+                  Id="e533daf0-aeec-4243-a65d-cb1ac6e54dc2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0617aa9f-e14b-42c0-ab11-b313ef1c7e59">
+                <propertyInstance
+                  Id="01f1b68f-0eed-4c36-83ba-abedc38a9ac9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e0a4b163-bec9-48a1-82e7-fade832b350f">
+                <propertyInstance
+                  Id="75727925-e148-48cc-89dc-4859dd2646ec"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb637c77-c94e-4bfa-814f-7fca5486c99b">
+                <propertyInstance
+                  Id="532a7b79-d4fb-4195-9617-5a996162098e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="3d6e2e75-d16c-446b-b23a-f0b61acc71a3">
+            <interfaceMoniker
+              Id="4ab73c7c-3080-4620-915c-8a5fd21f36db"
+              LastKnownName="ICoefficientAlgorithm"
+              LastKnownLocation="Package_1213.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="51a49ed0-2642-4340-a908-71ec326dc434"
+            name="Match"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="567cfcd1-33a3-44c7-a9ce-97a5fa1ee908"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="41fe04b0-c7f6-46bc-ab66-585a7f6ad056"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9cc47392-847d-46a7-8e84-d1e3a923a531">
+                    <propertyInstance
+                      Id="73c745e3-ce28-4de5-9aa9-d2870076e2b2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa582cd1-0e75-40ed-b54f-22f6589d78c2">
+                    <propertyInstance
+                      Id="d1b85264-4f59-477c-8aca-9b1bc0bd0d69"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48c2aa39-b993-48ff-916b-46e15c8b9c1e">
+                    <propertyInstance
+                      Id="e2fcb0a4-81b7-4608-859b-60c371efa685"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39be25d3-d257-4571-a06d-d08e5a6f5594">
+                    <propertyInstance
+                      Id="f0b25459-6ca9-44f3-b3be-18ba0165c511"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65edb035-376d-4be5-8598-011daaf204de">
+                    <propertyInstance
+                      Id="12590a0f-4208-448b-af3a-ed64a08593f9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51128a14-078b-4011-bc97-ee2086e9d2c3">
+                    <propertyInstance
+                      Id="4128d801-71b9-4e0c-8995-63a60662ef43"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="176278fb-9d79-4803-9bf6-c50fe516b275"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f2cf06c4-1c11-4ec6-8691-4f94a37295d1"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_1429.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b042a01d-8f69-4fdb-bc75-35fbd431daaa"
+                  name="str1"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9ab95c54-67bb-497f-893f-e2d8b8478600"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dstr1"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML Modelling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2557bb72-9a58-4316-911d-9d6f725627ec"
+                  name="str2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a930a6dd-df10-4a3e-bc0e-78837b2d073f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient Member%3D(Name%3DMatch OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dstr2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML Modelling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c08a065b-b529-40e5-86b0-02d1a39fdaf3"
+            name="CompareStrings"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7f5b0851-3f63-4786-b619-5bc29c89cdde"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient Member%3D(Name%3DCompareStrings OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3c568fa5-3cf1-4c5b-a92e-f40604401c0e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f538c70b-3fe2-4aa8-91a0-e2f3c92f4909">
+                    <propertyInstance
+                      Id="16aef8d8-a60d-47dc-a07f-df309a59dc32"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de3adc6a-8a11-48b5-a4e5-64318d67f57b">
+                    <propertyInstance
+                      Id="ade2fae4-a1bb-4696-b307-1581538a0df4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adfb3824-6f0b-471b-aefc-7f6a8d283027">
+                    <propertyInstance
+                      Id="7f60b85c-983b-41f2-a564-6c61ebcc3009"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e316ce50-98ee-4200-8bc4-349e1a49a0d6">
+                    <propertyInstance
+                      Id="9f203cfa-cf5a-4716-8f12-04c3dca39d66"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f314a78b-092a-42b4-a469-0f02737408b1">
+                    <propertyInstance
+                      Id="46ee264d-ec43-4f16-b8e1-d23533f942a4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="410e61d3-e4cf-49d2-bf66-b5555495b339">
+                    <propertyInstance
+                      Id="f5c1f118-95ea-47e2-ba83-5cec50d03d76"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="df6eab28-7e56-479b-9956-b7be981a80ba"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f2cf06c4-1c11-4ec6-8691-4f94a37295d1"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_1429.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cca90c63-26a1-41c7-860e-02faa07fda0d"
+                  name="str1"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="834d27fb-b8e5-4853-9ebb-1ae43ec3cc5f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient Member%3D(Name%3DCompareStrings OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dstr1"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML Modelling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="abdaf4c4-cc0e-4e90-a0cc-ab9cb3530d47"
+                  name="str2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="57f14e65-1dd1-4dc3-b422-13fb3a700411"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient Member%3D(Name%3DCompareStrings OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dstr2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML Modelling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fed537d3-3a6b-49f0-b5c2-2f9e2df7e82b"
+            name="WordLetterPairs"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2ba60230-fa1b-4183-adbd-67532723192c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient Member%3D(Name%3DWordLetterPairs OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ab4cb332-9dde-4b76-b1b1-aacb8e3bd983"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f331bea-16a4-40fb-a6f2-d7a67b99573a">
+                    <propertyInstance
+                      Id="2fe591ed-f5fa-461c-83bc-980eeb3f8f9c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28614e94-56a3-4d07-99bd-760b32f3bc46">
+                    <propertyInstance
+                      Id="391f089e-ea01-44a7-8518-1e73e0fdb51c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5696581a-f556-4860-8090-1b7345f239b4">
+                    <propertyInstance
+                      Id="5de1e196-a4de-48e9-9f71-ad171ab08aef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea43c178-b31c-46c2-98c6-2217d16f6f52">
+                    <propertyInstance
+                      Id="14c3dc05-0874-49bf-96c7-733dc2a8f64e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69ee179c-d7b7-4d9f-a8b2-ab977c17c50c">
+                    <propertyInstance
+                      Id="caf39976-7f75-4677-97df-8fb98fa5d13d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c77799e-e2e1-480c-9c89-fc097fb390ae">
+                    <propertyInstance
+                      Id="4d219021-1952-48b5-858b-6ef3dd773c38"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9ae8ca95-7eb2-4ff7-a771-b644d2e96537"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b2df29-73d8-4eb2-a45d-af72b12d93a9"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package4_1429.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3a5c3019-f22d-458f-ac74-a0ed4ddbb69a"
+                  name="str"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bfa9d198-d3f6-42b7-a187-aa8779f65a60"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient Member%3D(Name%3DWordLetterPairs OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dstr"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML Modelling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="87021d64-ab9e-442c-9eb8-4885dd025b53"
+            name="LetterPairs"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3264ebad-fa99-475b-a772-5c6b3088e30b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient Member%3D(Name%3DLetterPairs OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9624e12e-99b4-477c-81d2-f5b10dceacde"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="939b08a0-7637-4bf0-9957-368d24db1787">
+                    <propertyInstance
+                      Id="165a6907-0e93-4947-b3df-0427ce2b9b06"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b37d79b-4c23-4f2a-ae1e-72f2fa1dffee">
+                    <propertyInstance
+                      Id="03586e33-73de-4135-a149-07fa52ab4ca3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03f77567-0b76-4fff-af11-8ab42564a765">
+                    <propertyInstance
+                      Id="71bf9e90-bb1c-4c4b-8d1f-e1d6894cc716"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef7d3398-69a7-43c0-91bb-8aaefc1ac60d">
+                    <propertyInstance
+                      Id="0452af3b-dcdc-4fb0-ba1c-32f36f72bd43"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce9c9122-8e48-4fc6-aeed-4ded5e23d9f2">
+                    <propertyInstance
+                      Id="fed7665b-d0c2-46e6-9601-e08205a6b0cf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="872b2d44-daec-43ea-98a1-1e776b72a07e">
+                    <propertyInstance
+                      Id="25be6efb-5d51-4c54-9ab8-6c43ac1c1cc2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e991d8dc-3e25-4c86-8bcc-a5c1cc8596ba"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="c0dd90d8-bec7-4d87-9a87-1ca99deee1f0"
+                      LastKnownName="IEnumerable&lt;String‎&gt;"
+                      LastKnownLocation="Package4_1429.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="003b010f-b9c1-44f2-b997-7991d83e40bb"
+                  name="str"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0c52a4ad-6921-46a7-bc9c-9c37cc7d136f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient Member%3D(Name%3DLetterPairs OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dstr"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML Modelling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7b0ae3fd-f82b-42d2-8af2-53bcd6f98554"
+            name="DiceCoefficient"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e128a677-a45b-4d19-bb95-f456f71d3ba3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DDiceCoefficient Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5338a2cf-24a3-4675-9b1c-efb95a628c10"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c737b9fa-ab17-4dac-85cd-0620565b5fe3">
+                    <propertyInstance
+                      Id="d8ed1813-13c4-4417-83a2-e88f3c521a05"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="534329b4-68b6-4999-a7a4-bd7d99c9d64f">
+                    <propertyInstance
+                      Id="04855e90-0fce-45cc-8f35-c046a8130fa8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3772ad0-2ffe-45a9-a401-02ec65e87998">
+                    <propertyInstance
+                      Id="10ce184a-51da-4c27-83db-071a7f8eff48"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c884c60-f9fc-4733-887b-845551fef4dd">
+                    <propertyInstance
+                      Id="8c5a3aa5-2636-4d37-a672-7820d1de85b5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2dfd01aa-98cb-4919-9b06-7f5b67c15c3c">
+                    <propertyInstance
+                      Id="12caf8c4-2289-4f5f-b449-651a175b35b3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68b71198-ec50-4801-bba9-2d71f0689e02">
+                    <propertyInstance
+                      Id="1a2a79c0-3cc2-4150-a328-adec51f775c2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="282cb584-feec-43e4-84a6-c8f217030b55"
+        name="T">
+        <referencesInternal>
+          <reference
+            Id="863b4b3c-c833-4390-b5dc-0e694ab50659"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FUsers%2FTim.CAULDSTANES%2FMy Documents%2FVisual Studio 2012%2FProjects%2FMSc%2FDissertation%2FWebService%2FInfrastructure%2Fbin%2FDebug%2FInfrastructure.dll&quot; Namespace%3DInfrastructure.Algorithms Type%3DLevenshteinEditDistance Member%3D(Name%3DSwap GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0 ParamKind%3DRef)%2C(ParameterIdentifier%3D0 ParamKind%3DRef)]) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
     </packageHasNamedElement>
   </packagedElements>
 </package>

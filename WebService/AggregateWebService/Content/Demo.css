@@ -14,9 +14,10 @@
 }
 
 .returnvalues {
-    padding: 5px;
     border-top: dotted medium;
     display: none;
+    margin: 5px;
+    padding: 5px;
 }
 
 .returnvalues:after {

@@ -59,7 +59,7 @@ namespace Infrastructure.Algorithms
         /// </summary>
         /// <param name="source">The Name to be matched with one already aggregated</param>
         /// <param name="aggregates">The list of aggregated data</param>
-        /// <returns>Returns TRUE if they match otherwise FALSE</returns>
+        /// <returns>Returns id of the matching aggregate otherwise -1: no match found</returns>
         public int Match(string source, IList<Aggregate> aggregates)
         {
             var result = -1;

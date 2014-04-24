@@ -61,7 +61,7 @@ namespace IntegrationTests
             var helper = new SnhKmlHelper();
             _datasource = new SnhDataSource(helper);
 
-            _coefficientAlgorithm = new DicesCoefficient();
+            _coefficientAlgorithm = new DiceCoefficient();
             _similarityAlgorithm = new LcSubstr();
             _editDistanceAlgorithm = new LevenshteinEditDistance();
             _preProcess = new PreProcessor();

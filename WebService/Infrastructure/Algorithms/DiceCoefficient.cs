@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using Infrastructure.Interfaces;
 using Infrastructure.Interfaces.Algorithms;
 
 namespace Infrastructure.Algorithms
@@ -20,7 +19,7 @@ namespace Infrastructure.Algorithms
     /// which can be found here: http://stackoverflow.com/questions/653157/a-better-similarity-ranking-algorithm-for-variable-length-strings
     /// specifically the C# solution posted by Michael La Voie.
     /// </remarks>
-    public class DicesCoefficient : ICoefficientAlgorithm   // IAlgorithm<double>
+    public class DiceCoefficient : ICoefficientAlgorithm   // IAlgorithm<double>
     {
         /// <summary>
         /// Returns the Disce's Coefficient of the strings that match

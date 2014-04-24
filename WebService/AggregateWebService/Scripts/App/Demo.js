@@ -13,6 +13,13 @@
             //  Get Url from <a>
             var url = getApiUrl(thisLink);
 
+            //  Add the link to the 'clickedlinks' div
+            //var parent = thisLink.parent();
+            var clickedLink = thisLink[0].outerHTML;
+            //clickedLink.click(Demo.Api.click);
+            $('#clickedlinks').append(clickedLink);
+            $('#clickedlinks a:last-child').click(Demo.Api.click);  // Add handler to the link just added.
+
             //  Get the Http Verb
             var httpVerb = getHttpVerb(thisLink);
 

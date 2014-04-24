@@ -15,7 +15,7 @@ namespace UnitTests.AlgorithmTests
             var str1 = "Cathkin Braes";
             var str2 = "Cathkin Braes";
 
-            var algorithm = new DicesCoefficient();
+            var algorithm = new DiceCoefficient();
 
             //  Act
             var result = Math.Round(algorithm.Match(str1, str2), 3);
@@ -32,7 +32,7 @@ namespace UnitTests.AlgorithmTests
             var str1 = "Hadyard Hill";
             var str2 = "Hadyard Hill, Barr";
 
-            var algorithm = new DicesCoefficient();
+            var algorithm = new DiceCoefficient();
 
             //  Act
             var result = Math.Round(algorithm.Match(str1, str2),3);
@@ -49,7 +49,7 @@ namespace UnitTests.AlgorithmTests
             var str1 = "Achany Estate";
             var str2 = "Aikengall";
 
-            var algorithm = new DicesCoefficient();
+            var algorithm = new DiceCoefficient();
 
             //  Act
             var result = Math.Round(algorithm.Match(str1, str2), 3);
