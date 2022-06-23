@@ -126,6 +126,7 @@
     <Content Include="Data\RenUkTest.html" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="Data\AreaPlacemarks.kml" />
     <None Include="Data\JuneNoAreaPlacemarks.kml" />
     <None Include="Data\JuneNoStyles.kml" />
